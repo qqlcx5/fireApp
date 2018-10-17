@@ -1,0 +1,20 @@
+<template name="c9b538be">
+  <view class="_view data-v-7538a772">
+    <view class="_view data-v-7538a772 header-box">
+      <view class="_view data-v-7538a772 header">
+        <view class="_view data-v-7538a772 header-left">
+          <text class="_text data-v-7538a772 iconWhite"></text>
+        </view>
+        <view class="_view data-v-7538a772 header-center"> 我的资产 </view>
+        <view class="_view data-v-7538a772 header-right">
+          <text class="_text data-v-7538a772 iconWhite"></text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-7538a772 header-info">
+      <view class="_h2 data-v-7538a772">666854.36</view>
+      <view class="_p data-v-7538a772">CNY</view>
+    </view>
+    <view class="_view data-v-7538a772 exchange"></view>
+  </view>
+</template>

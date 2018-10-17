@@ -1,0 +1,46 @@
+<template name="9f159d68">
+  <view class="_view data-v-26c1b0ce page">
+    <view class="_view data-v-26c1b0ce header">
+      <view class="_view data-v-26c1b0ce header-left" bindtap="handleProxy" data-eventid="{{'l1b-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-26c1b0ce icon"></text>
+      </view>
+      <view class="_view data-v-26c1b0ce header-content"> header </view>
+      <view class="_view data-v-26c1b0ce header-right">
+        <text class="_text data-v-26c1b0ce icon"></text>
+      </view>
+    </view>
+    <view class="_view data-v-26c1b0ce banner">
+      <image src="../../static/bg.jpg" class="_image data-v-26c1b0ce"></image>
+    </view>
+    <view class="_view data-v-26c1b0ce notify">
+      <text class="_text data-v-26c1b0ce icon mgl20 mgr20"></text>
+      <text class="_text data-v-26c1b0ce">第第第第第第第第第第</text>
+    </view>
+    <view class="_view data-v-26c1b0ce list mgt20">
+      <view class="_view data-v-26c1b0ce item">
+        <image src="../../static/bg_2.png" class="_image data-v-26c1b0ce"></image>
+        <view class="_view data-v-26c1b0ce item-name mgl20">转呗检查</view>
+      </view>
+      <view class="_view data-v-26c1b0ce item">
+        <image src="../../static/bg_2.png" class="_image data-v-26c1b0ce"></image>
+        <view class="_view data-v-26c1b0ce item-name mgl20">转呗检查</view>
+      </view>
+      <view class="_view data-v-26c1b0ce item">
+        <image src="../../static/bg_2.png" class="_image data-v-26c1b0ce"></image>
+        <view class="_view data-v-26c1b0ce item-name mgl20">转 查</view>
+      </view>
+      <view class="_view data-v-26c1b0ce item">
+        <image src="../../static/bg_2.png" class="_image data-v-26c1b0ce"></image>
+        <view class="_view data-v-26c1b0ce item-name mgl20">转呗检查</view>
+      </view>
+      <view class="_view data-v-26c1b0ce item">
+        <image src="../../static/bg_2.png" class="_image data-v-26c1b0ce"></image>
+        <view class="_view data-v-26c1b0ce item-name mgl20">转呗检查</view>
+      </view>
+      <view class="_view data-v-26c1b0ce item">
+        <image src="../../static/bg_2.png" class="_image data-v-26c1b0ce"></image>
+        <view class="_view data-v-26c1b0ce item-name mgl20">转呗检查</view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,44 @@
+<template name="1b54b10a">
+  <view class="_view data-v-3b6a7ace page">
+    <view class="_view data-v-3b6a7ace header">
+      <view class="_view data-v-3b6a7ace header-left"></view>
+      <view class="_view data-v-3b6a7ace header-content"> 包河消防 </view>
+      <view class="_view data-v-3b6a7ace header-right" bindtap="handleProxy" data-eventid="{{'Cxp-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-3b6a7ace icon"></text>
+      </view>
+    </view>
+    <view class="_view data-v-3b6a7ace banner">
+      <image src="../../static/banner.jpeg" class="_image data-v-3b6a7ace"></image>
+    </view>
+    <view class="_view data-v-3b6a7ace notify">
+      <text class="_text data-v-3b6a7ace icon notifyIcon mgl20 mgr20"></text>
+      <text class="_text data-v-3b6a7ace">第四届全国119消防奖拟表彰对象公示</text>
+    </view>
+    <view class="_view data-v-3b6a7ace list mgt20">
+      <view class="_view data-v-3b6a7ace item" bindtap="handleProxy" data-eventid="{{'7fx-1'}}" data-comkey="{{$k}}">
+        <image src="../../static/basics1.png" class="_image data-v-3b6a7ace"></image>
+        <view class="_view data-v-3b6a7ace item-name mgl20">执 勤</view>
+      </view>
+      <view class="_view data-v-3b6a7ace item">
+        <image src="../../static/basics2.png" class="_image data-v-3b6a7ace"></image>
+        <view class="_view data-v-3b6a7ace item-name mgl20">考 勤</view>
+      </view>
+      <view class="_view data-v-3b6a7ace item" bindtap="handleProxy" data-eventid="{{'gY4-2'}}" data-comkey="{{$k}}">
+        <image src="../../static/basics3.png" class="_image data-v-3b6a7ace"></image>
+        <view class="_view data-v-3b6a7ace item-name mgl20">卫生区检</view>
+      </view>
+      <view class="_view data-v-3b6a7ace item">
+        <image src="../../static/basics4.png" class="_image data-v-3b6a7ace"></image>
+        <view class="_view data-v-3b6a7ace item-name mgl20">请假外出</view>
+      </view>
+      <view class="_view data-v-3b6a7ace item">
+        <image src="../../static/basics5.png" class="_image data-v-3b6a7ace"></image>
+        <view class="_view data-v-3b6a7ace item-name mgl20">装备检查</view>
+      </view>
+      <view class="_view data-v-3b6a7ace item">
+        <image src="../../static/basics6.png" class="_image data-v-3b6a7ace"></image>
+        <view class="_view data-v-3b6a7ace item-name mgl20">训练计划</view>
+      </view>
+    </view>
+  </view>
+</template>

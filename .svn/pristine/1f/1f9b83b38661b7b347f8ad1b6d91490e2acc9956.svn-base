@@ -1,0 +1,9 @@
+<template name="728ae0d0">
+  <view class="_view data-v-6d70f652 header">
+    <view class="_view data-v-6d70f652 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <text class="_text data-v-6d70f652 icon"></text>
+    </view>
+    <view class="_view data-v-6d70f652 header-content"> {{headertitle}} </view>
+    <view class="_view data-v-6d70f652 header-right"></view>
+  </view>
+</template>

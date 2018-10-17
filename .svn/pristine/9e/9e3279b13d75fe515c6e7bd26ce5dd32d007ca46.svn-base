@@ -1,0 +1,11 @@
+<template name="9f159d68">
+  <view class="_view data-v-26c1b0ce header">
+    <view class="_view data-v-26c1b0ce header-left" bindtap="handleProxy" data-eventid="{{'pEC-0'}}" data-comkey="{{$k}}">
+      <text class="_text data-v-26c1b0ce icon"></text>
+    </view>
+    <view class="_view data-v-26c1b0ce header-content"> header </view>
+    <view class="_view data-v-26c1b0ce header-right">
+      <text class="_text data-v-26c1b0ce icon"></text>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,6 @@
+<import src="/components/AppHeader.vue.wxml" />
+<template name="06407870">
+  <view class="_view data-v-fbb2b586">
+    <template data="{{...$root[$kk+'0'], $root}}" is="728ae0d0"></template>
+  </view>
+</template>

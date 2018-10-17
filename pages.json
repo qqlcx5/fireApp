@@ -1,0 +1,47 @@
+{
+  "pages": [{
+      "path": "pages/basics/basics"
+    },
+    {
+      "path": "pages/basics/message"
+    },
+    {
+      "path": "pages/basics/zhiqin"
+    },
+    {
+      "path": "pages/basics/weishengqujian"
+    },
+    {
+      "path": "pages/party/party"
+    },
+    {
+      "path": "pages/manage/manage"
+    }
+
+  ],
+  "globalStyle": {
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#d0021b",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [{
+      "pagePath": "pages/basics/basics",
+      "iconPath": "static/basics.png",
+      "selectedIconPath": "static/basicsS.png",
+      "text": "基础工作"
+    }, {
+      "pagePath": "pages/party/party",
+      "iconPath": "static/Party.png",
+      "selectedIconPath": "static/PartyS.png",
+      "text": "党建工作"
+    }, {
+      "pagePath": "pages/manage/manage",
+      "iconPath": "static/manage.png",
+      "selectedIconPath": "static/manageS.png",
+      "text": "我的管理"
+    }]
+  }
+}

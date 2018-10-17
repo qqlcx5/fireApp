@@ -1,0 +1,34 @@
+<template name="3e283c4a">
+  <view class="_view data-v-5cd20ea8 page">
+    <view class="_view data-v-5cd20ea8 header">
+      <view class="_view data-v-5cd20ea8 header-left" bindtap="handleProxy" data-eventid="{{'FJE-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-5cd20ea8 icon"></text>
+      </view>
+      <view class="_view data-v-5cd20ea8 header-content"> header </view>
+      <view class="_view data-v-5cd20ea8 header-right">
+        <text class="_text data-v-5cd20ea8 icon"></text>
+      </view>
+    </view>
+    <view class="_view data-v-5cd20ea8 banner">
+      <image src="../../static/bg.jpg" class="_image data-v-5cd20ea8"></image>
+    </view>
+    <view class="_view data-v-5cd20ea8 list">
+      <view class="_view data-v-5cd20ea8 item">
+        <image src="../../static/logo_2.png" class="_image data-v-5cd20ea8"></image>
+        <text class="_text data-v-5cd20ea8 item-name">机构设置</text>
+      </view>
+      <view class="_view data-v-5cd20ea8 item">
+        <image src="../../static/logo_2.png" class="_image data-v-5cd20ea8"></image>
+        <text class="_text data-v-5cd20ea8 item-name">机构设置</text>
+      </view>
+      <view class="_view data-v-5cd20ea8 item">
+        <image src="../../static/logo_2.png" class="_image data-v-5cd20ea8"></image>
+        <text class="_text data-v-5cd20ea8 item-name">机构设置</text>
+      </view>
+      <view class="_view data-v-5cd20ea8 item">
+        <image src="../../static/logo_2.png" class="_image data-v-5cd20ea8"></image>
+        <text class="_text data-v-5cd20ea8 item-name">机构设置</text>
+      </view>
+    </view>
+  </view>
+</template>

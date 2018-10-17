@@ -1,0 +1,64 @@
+<script>
+	export default {
+		onLaunch: function () {
+			console.log('App Launch')
+		},
+		onShow: function () {
+			console.log('App Show')
+		},
+		onHide: function () {
+			console.log('App Hide')
+		}
+	}
+</script>
+
+<style>
+	/*每个页面公共css */
+	/* @import './common/common.css'; */
+
+	page {
+		min-height: 100vh;
+		max-height: 100%;
+		width: 100%;
+		font-size: 32px;
+		background-color: #F7F7F7;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.mgr20 {
+		margin-right: 20px;
+	}
+
+	.mgl20 {
+		margin-left: 20px;
+	}
+
+	.mgr10 {
+		margin-right: 10px;
+	}
+
+	.mgl10 {
+		margin-left: 10px;
+	}
+	/* icon图标 */
+
+	@font-face {
+		font-family: iconfont;
+		font-weight: normal;
+		font-style: normal;
+		src: url('https://at.alicdn.com/t/font_874003_3w8ux5fmx0r.ttf') format('truetype');
+	}
+
+	.icon {
+		font-size: 32px;
+		color: #b6b6b6;
+		font-family: iconfont;
+	}
+
+	.iconWhite {
+		font-size: 32px;
+		color: #FFFFFF;
+		font-family: iconfont;
+	}
+</style>

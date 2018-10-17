@@ -1,0 +1,14 @@
+<import src="/components/slots" />
+<template name="f4203932">
+  <view class="_view data-v-5a8c38ae header">
+    <template name="A"></template>
+    <template name="B"></template>
+    <view class="_view data-v-5a8c38ae header-left" bindtap="handleProxy" data-eventid="{{'J3c-0'}}" data-comkey="{{$k}}">
+      <template data="{{...$root['0'], ...$root[$k], $root}}" is="{{$slotA || 'A'}}"></template>
+    </view>
+    <view class="_view data-v-5a8c38ae header-content"> {{title}} </view>
+    <view class="_view data-v-5a8c38ae header-right">
+      <template data="{{...$root['0'], ...$root[$k], $root}}" is="{{$slotB || 'B'}}"></template>
+    </view>
+  </view>
+</template>
