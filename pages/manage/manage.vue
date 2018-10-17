@@ -11,7 +11,7 @@
         </view>
       </view>
       <view class="banner">
-        <image src="../../static/Party.png" />
+        <image src="../../static/user.jpeg" />
         <text>李志强</text>
         <text class="banner-desc">职务：消防一队组长</text>
       </view>
