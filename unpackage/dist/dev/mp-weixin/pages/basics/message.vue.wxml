@@ -1,7 +1,7 @@
 <template name="22c43581">
   <view class="_view data-v-076c66e4 page">
     <view class="_view data-v-076c66e4 header">
-      <view class="_view data-v-076c66e4 header-left" bindtap="handleProxy" data-eventid="{{'3pk-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-076c66e4 header-left" bindtap="handleProxy" data-eventid="{{'mm2-0'}}" data-comkey="{{$k}}">
         <text class="_text data-v-076c66e4 icon"></text>
       </view>
       <view class="_view data-v-076c66e4 header-content"> 消息通知 </view>
