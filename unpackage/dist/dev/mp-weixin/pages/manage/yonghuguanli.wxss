@@ -58,17 +58,8 @@
   -webkit-align-items: center;
   align-items: center;
 }
-.account .btn {
-  width: 490rpx;
-  height: 88rpx;
-  border-radius: 12rpx;
-  border: solid 2rpx #d0021b;
-  line-height: 88rpx;
-  text-align: center;
-  font-size: 36rpx;
+.account .btn-switch {
+  background-color: #fff;
   color: #d0021b;
-}
-.account .btn-out {
-  background-color: #d0021b;
-  color: #ffffff;
+  border: solid 2rpx #d0021b;
 }

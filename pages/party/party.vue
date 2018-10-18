@@ -14,7 +14,7 @@
       <image src="../../static/partyBanner.jpg" />
     </view>
     <view class="list">
-      <view class="item">
+      <view class="item" @click="goTo('jigoushezhi')">
         <image src="../../static/party1.png" />
         <text class="item-name">机构设置</text>
       </view>

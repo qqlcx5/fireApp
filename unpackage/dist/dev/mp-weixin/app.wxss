@@ -35,7 +35,7 @@ page {
   font-family: iconfont;
   font-weight: normal;
   font-style: normal;
-  src: url('https://at.alicdn.com/t/font_874003_cx48blm2ceq.ttf')
+  src: url('https://at.alicdn.com/t/font_874003_0tc4ik62qjmp.ttf')
     format('truetype');
 }
 .icon {
@@ -84,5 +84,15 @@ page {
   font-size: 36rpx;
   text-align: center;
   font-size: 36rpx;
+  color: #ffffff;
+}
+.btn {
+  width: 490rpx;
+  height: 88rpx;
+  border-radius: 12rpx;
+  line-height: 88rpx;
+  text-align: center;
+  font-size: 36rpx;
+  background-color: #d0021b;
   color: #ffffff;
 }

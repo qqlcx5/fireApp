@@ -15,12 +15,12 @@
       </view>
     </view>
     <view class="_view data-v-0772eece list">
-      <view class="_view data-v-0772eece item" bindtap="handleProxy" data-eventid="{{'Sp1-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-0772eece item" bindtap="handleProxy" data-eventid="{{'qDv-0'}}" data-comkey="{{$k}}">
         <text class="_text data-v-0772eece gIcon mgl30 mgr20"></text>
         <view class="_view data-v-0772eece item-name">用户信息</view>
         <text class="_text data-v-0772eece gIcon mgr30"></text>
       </view>
-      <view class="_view data-v-0772eece item" bindtap="handleProxy" data-eventid="{{'aE3-1'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-0772eece item" bindtap="handleProxy" data-eventid="{{'c4s-1'}}" data-comkey="{{$k}}">
         <text class="_text data-v-0772eece gIcon mgl30 mgr20"></text>
         <view class="_view data-v-0772eece item-name">行政管理</view>
         <text class="_text data-v-0772eece gIcon mgr30"></text>

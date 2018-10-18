@@ -1,38 +1,58 @@
 <template>
   <view class="page">
     <view class="header">
-      <view class="header-left"
+      <!-- <view class="header-left"
             @click="goback()">
         <text class="icon">&#xe601;</text>
-      </view>
+      </view> -->
+      <view class="header-left"></view>
       <view class="header-content">
-        行政管理
+        包河消防
       </view>
-      <view class="header-right">
+      <view class="header-right"
+            @click="goTo('message')">
         <text class="icon">&#xe622;</text>
       </view>
+    </view>
+    <view class="banner">
+      <image src="../../static/banner.jpeg" />
+    </view>
+    <view class="notify">
+      <text class="icon notifyIcon mgl20 mgr20">&#xe600;</text>
+      <text>第四届全国119消防奖拟表彰对象公示</text>
+
     </view>
     <view class="list mgt20">
       <view class="item"
             @click="goTo('zhiqin')">
-        <image src="../../static/xingzhengguanli1.png" />
-        <view class="item-name mgl20">会议列表</view>
+        <image src="../../static/basics1.png" />
+        <view class="item-name mgl20">执 勤</view>
       </view>
-      <view class="item">
-        <image src="../../static/xingzhengguanli2.png" />
-        <view class="item-name mgl20">制订会议</view>
+      <view class="item" @click="goTo('kaoqin')">
+        <image src="../../static/basics2.png" />
+        <view class="item-name mgl20">考 勤</view>
       </view>
       <view class="item"
             @click="goTo('weishengqujian')">
-        <image src="../../static/xingzhengguanli3.png" />
-        <view class="item-name mgl20">会议删改查</view>
+        <image src="../../static/basics3.png" />
+        <view class="item-name mgl20">卫生区检</view>
       </view>
-      <view class="item">
-        <image src="../../static/xingzhengguanli4.png" />
-        <view class="item-name mgl20">下发通知</view>
+      <view class="item" @click="goTo('qingjiawaichu')">
+        <image src="../../static/basics4.png" />
+        <view class="item-name mgl20">请假外出</view>
       </view>
+      <view class="item" @click="goTo('zhuangbeijiancha')">
+        <image src="../../static/basics5.png" />
+        <view class="item-name mgl20">装备检查</view>
+      </view>
+      <view class="item" @click="goTo('xunlianjihua')">
+        <image src="../../static/basics6.png" />
+        <view class="item-name mgl20">训练计划</view>
+      </view>
+
     </view>
   </view>
+
 </template>
 <script>
 
@@ -45,11 +65,37 @@ export default {
       uni.navigateBack({
         delta: 1
       })
+    },
+    goTo (url) {
+      uni.navigateTo({
+        url: url
+      })
     }
   }
 }
 </script>
 <style>
+.banner {
+  height: 375px;
+  width: 750px;
+  overflow: hidden;
+}
+.banner image {
+  width: 100%;
+  height: 100%;
+}
+.notify {
+  height: 100px;
+  width: 750px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  color: #666666;
+}
+.notifyIcon {
+  color: #d0021b;
+}
 .list {
   min-height: 100px;
   width: 750px;
@@ -70,17 +116,14 @@ export default {
 }
 
 .item image {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
 }
 .item-name {
-  width: 160px;
-  height: 50px;
-  line-height: 50px;
+  width: 140px;
+  height: 80px;
+  line-height: 80px;
   font-size: 32px;
-	font-weight: normal;
-	font-stretch: normal;
-	letter-spacing: 0px;
-	color: #333333;
+  color: #666666;
 }
 </style>

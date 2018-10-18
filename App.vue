@@ -54,7 +54,7 @@ page {
   font-family: iconfont;
   font-weight: normal;
   font-style: normal;
-  src: url('https://at.alicdn.com/t/font_874003_cx48blm2ceq.ttf')
+  src: url('https://at.alicdn.com/t/font_874003_0tc4ik62qjmp.ttf')
     format('truetype');
 }
 
@@ -95,6 +95,17 @@ page {
   font-size: 36px;
   text-align: center;
   font-size: 36px;
+  color: #ffffff;
+}
+/* 按钮 */
+.btn {
+  width: 490px;
+  height: 88px;
+  border-radius: 12px;
+  line-height: 88px;
+  text-align: center;
+  font-size: 36px;
+  background-color: #d0021b;
   color: #ffffff;
 }
 </style>

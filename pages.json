@@ -8,14 +8,32 @@
     {
       "path": "pages/basics/zhiqin"
     },
+		{
+			"path": "pages/basics/kaoqin"
+		},
+		{
+			"path": "pages/basics/qingjiawaichu"
+		},
+		{
+			"path": "pages/basics/xunlianjihua"
+		},
     {
       "path": "pages/basics/weishengqujian"
     },
     {
-      "path": "pages/party/party"
+      "path": "pages/basics/zhuangbeijiancha"
     },
     {
+      "path": "pages/party/party"
+    },
+		{
+			"path": "pages/party/jigoushezhi"
+		},
+    {
       "path": "pages/party/xuexijingyan"
+    },
+    {
+      "path": "pages/party/zuzhishenghuo"
     },
     {
       "path": "pages/manage/manage"
@@ -23,9 +41,15 @@
     {
       "path": "pages/manage/yonghuguanli"
     },
-		{
-			"path": "pages/manage/xingzhengguanli"
-		}
+    {
+      "path": "pages/manage/xingzhengguanli"
+    },
+    {
+      "path": "pages/manage/gerenziliao"
+    },
+    {
+      "path": "pages/manage/mimaguanli"
+    }
 
   ],
   "globalStyle": {

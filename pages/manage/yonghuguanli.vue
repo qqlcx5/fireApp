@@ -13,14 +13,16 @@
       </view>
     </view>
     <view class="list">
-      <view class="item">
+      <view class="item"
+            @click="goTo('gerenziliao')">
         <view class="border">
           <text class="item-name">个人资料</text>
           <text class="gIcon">&#xe661;</text>
         </view>
 
       </view>
-      <view class="item">
+      <view class="item"
+            @click="goTo('mimaguanli')">
         <view class="border">
           <text class="item-name">密码管理</text>
           <text class="gIcon">&#xe661;</text>
@@ -47,10 +49,10 @@
       </view>
     </view>
     <view class="account">
-      <view class="btn mgt20">
+      <view class="btn mgt20 btn-switch">
         切换账号
       </view>
-      <view class="btn btn-out mgt40">
+      <view class="btn mgt40">
         退出登录
       </view>
     </view>
@@ -68,7 +70,12 @@ export default {
       uni.navigateBack({
         delta: 1
       })
-    }
+    },
+    goTo (url) {
+      uni.navigateTo({
+        url: url
+      })
+    },
   }
 }
 </script>
@@ -112,18 +119,10 @@ export default {
   flex-direction: column;
   align-items: center;
 }
-.account .btn {
-  width: 490px;
-  height: 88px;
-  border-radius: 12px;
-  border: solid 2px #d0021b;
-  line-height: 88px;
-  text-align: center;
-  font-size: 36px;
+
+.account .btn-switch {
+  background-color: #fff;
   color: #d0021b;
-}
-.account .btn-out {
-  background-color: #d0021b;
-  color: #ffffff;
+  border: solid 2px #d0021b;
 }
 </style>

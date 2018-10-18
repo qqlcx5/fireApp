@@ -13,7 +13,7 @@
       </view>
     </view>
     <view class="add-box">
-      <view class="btn mgr30">添加</view>
+      <view class="addbtn mgr30">添加</view>
     </view>
     <view class="list">
       <view class="item">
@@ -84,7 +84,7 @@ export default {
   justify-content: flex-end;
   align-items: center;
 }
-.add-box .btn {
+.add-box .addbtn {
   width: 112px;
   height: 56px;
   border-radius: 12px;
