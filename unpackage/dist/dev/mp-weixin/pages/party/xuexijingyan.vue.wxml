@@ -1,7 +1,7 @@
 <template name="5c7f90c8">
   <view class="_view data-v-2a217a2f page">
     <view class="_view data-v-2a217a2f header">
-      <view class="_view data-v-2a217a2f header-left" bindtap="handleProxy" data-eventid="{{'5MX-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-2a217a2f header-left" bindtap="handleProxy" data-eventid="{{'TuN-0'}}" data-comkey="{{$k}}">
         <text class="_text data-v-2a217a2f icon"></text>
       </view>
       <view class="_view data-v-2a217a2f header-content"> 包河消防 </view>

@@ -13,7 +13,7 @@
   background-image: linear-gradient(90deg, #e75551 0%, #c43164 100%);
   box-shadow: 0 4rpx 8rpx 0 #e6e6e6;
 }
-.header {
+.diff-header {
   height: 128rpx;
   width: 100%;
   display: -webkit-box;
@@ -25,28 +25,6 @@
   -webkit-box-align: center;
   -webkit-align-items: center;
   align-items: center;
-}
-.header-left,
-.header-right {
-  width: 88rpx;
-  height: 88rpx;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-.header-content {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  flex: 1;
-  font-size: 36rpx;
-  text-align: center;
-  color: #ffffff;
 }
 .banner {
   height: 292rpx;

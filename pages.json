@@ -14,12 +14,18 @@
     {
       "path": "pages/party/party"
     },
-		{
-			"path": "pages/party/xuexijingyan"
-		},
+    {
+      "path": "pages/party/xuexijingyan"
+    },
     {
       "path": "pages/manage/manage"
-    }
+    },
+    {
+      "path": "pages/manage/yonghuguanli"
+    },
+		{
+			"path": "pages/manage/xingzhengguanli"
+		}
 
   ],
   "globalStyle": {

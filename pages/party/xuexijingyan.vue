@@ -24,30 +24,30 @@
         <!-- 补上日期 -->
         <text class="item-time">2018-10-22</text>
       </view>
-    	<view class="item">
-    		<view class="item-left">
-    			<image src='../../static/user_2.jpg' />
-    		</view>
-    		<view class="mgl30 item-right">
-    			<text class="item-name">2018年11月火宅防范重点通知</text>
-    			<text class="item-desc">11月入秋的季节是火宅季节是火宅隐患最高的时期，为了全面预防火灾，应该做到以下几点节是该做到以下几</text>
-    		</view>
-    		<!-- 补上日期 -->
-    		<text class="item-time">2018-10-22</text>
-    	</view>
-    	<view class="item">
-    		<view class="item-left">
-    			<image src='../../static/user_2.jpg' />
-    		</view>
-    		<view class="mgl30 item-right">
-    			<text class="item-name">2018年11月火宅防范重点通知</text>
-    			<text class="item-desc">11月入秋的季节是火宅季节是火宅隐患最高的时期，为了全面预防火灾，应该做到以下几点节是该做到以下几</text>
-    		</view>
-    		<!-- 补上日期 -->
-    		<text class="item-time">2018-10-22</text>
-    	</view>
-    
-		</view>
+      <view class="item">
+        <view class="item-left">
+          <image src='../../static/user_2.jpg' />
+        </view>
+        <view class="mgl30 item-right">
+          <text class="item-name">2018年11月火宅防范重点通知</text>
+          <text class="item-desc">11月入秋的季节是火宅季节是火宅隐患最高的时期，为了全面预防火灾，应该做到以下几点节是该做到以下几</text>
+        </view>
+        <!-- 补上日期 -->
+        <text class="item-time">2018-10-22</text>
+      </view>
+      <view class="item">
+        <view class="item-left">
+          <image src='../../static/user_2.jpg' />
+        </view>
+        <view class="mgl30 item-right">
+          <text class="item-name">2018年11月火宅防范重点通知</text>
+          <text class="item-desc">11月入秋的季节是火宅季节是火宅隐患最高的时期，为了全面预防火灾，应该做到以下几点节是该做到以下几</text>
+        </view>
+        <!-- 补上日期 -->
+        <text class="item-time">2018-10-22</text>
+      </view>
+
+    </view>
   </view>
 
 </template>
@@ -67,7 +67,7 @@ export default {
 }
 </script>
 <style>
-.header {
+/* .header {
   height: 128px;
   width: 100%;
   display: flex;
@@ -94,7 +94,7 @@ export default {
   text-align: center;
   font-size: 36px;
   color: #ffffff;
-}
+} */
 .list {
   min-height: 200px;
   width: 750px;

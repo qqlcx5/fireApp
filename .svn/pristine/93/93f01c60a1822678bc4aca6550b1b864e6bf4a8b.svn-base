@@ -1,0 +1,37 @@
+<template name="22c43581">
+  <view class="_view data-v-076c66e4 page">
+    <view class="_view data-v-076c66e4 header">
+      <view class="_view data-v-076c66e4 header-left" bindtap="handleProxy" data-eventid="{{'p7f-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-076c66e4 icon"></text>
+      </view>
+      <view class="_view data-v-076c66e4 header-content"> 消息通知 </view>
+      <view class="_view data-v-076c66e4 header-right"></view>
+    </view>
+    <view class="_view data-v-076c66e4 list">
+      <view class="_view data-v-076c66e4 item mgt20">
+        <view class="_view data-v-076c66e4 item-time"> 2018-10-22 09:53 </view>
+        <view class="_view data-v-076c66e4 item-info">
+          <text class="_text data-v-076c66e4 item-name">2018年11月火宅防范重点通知2018年11月火宅防范重点通知</text>
+          <text class="_text data-v-076c66e4 item-desc">11月入秋的季节是火宅隐患最高的时期，为了全面预防火灾，应该做到以下几点节是火宅隐患最高的时期，为了全面预防火灾，应该做到以下几点………….</text>
+          <view class="_view data-v-076c66e4 item-info-detail">查看详情</view>
+        </view>
+      </view>
+      <view class="_view data-v-076c66e4 item mgt20">
+        <view class="_view data-v-076c66e4 item-time"> 2018-10-22 09:53 </view>
+        <view class="_view data-v-076c66e4 item-info">
+          <text class="_text data-v-076c66e4 item-name">2018年11月火宅防范重点通知2018年11月火宅防范重点通知</text>
+          <text class="_text data-v-076c66e4 item-desc">11月入秋的季节是火宅隐患最高的时期，为了全面预防火灾，应该做到以下几点节是火宅隐患最高的时期，为了全面预防火灾，应该做到以下几点………….</text>
+          <view class="_view data-v-076c66e4 item-info-detail">查看详情</view>
+        </view>
+      </view>
+      <view class="_view data-v-076c66e4 item mgt20">
+        <view class="_view data-v-076c66e4 item-time"> 2018-10-22 09:53 </view>
+        <view class="_view data-v-076c66e4 item-info">
+          <text class="_text data-v-076c66e4 item-name">2018年11月火宅防范重点通知2018年11月火宅防范重点通知</text>
+          <text class="_text data-v-076c66e4 item-desc">11月入秋的季节是火宅隐患最高的时期，为了全面预防火灾，应该做到以下几点节是火宅隐患最高的时期，为了全面预防火灾，应该做到以下几点………….</text>
+          <view class="_view data-v-076c66e4 item-info-detail">查看详情</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

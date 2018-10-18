@@ -44,6 +44,9 @@ page {
 .mgt20 {
   margin-top: 20px;
 }
+.mgt40 {
+  margin-top: 40px;
+}
 
 /* icon图标 */
 
@@ -64,5 +67,34 @@ page {
   font-size: 48px;
   color: #dadada;
   font-family: iconfont;
+}
+/*页面头部样式*/
+.header {
+  height: 128px;
+  width: 100%;
+  display: flex;
+  padding-top: 40px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  align-items: center;
+  background-color: #d0021b;
+  box-shadow: 0px 4px 8px 0px #e6e6e6;
+}
+
+.header-left,
+.header-right {
+  width: 88px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  flex: 1;
+  font-size: 36px;
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
 }
 </style>

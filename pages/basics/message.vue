@@ -62,7 +62,7 @@ export default {
 }
 </script>
 <style>
-.header {
+/* .header {
   height: 128px;
   width: 100%;
   display: flex;
@@ -89,7 +89,7 @@ export default {
   text-align: center;
   font-size: 36px;
   color: #ffffff;
-}
+} */
 .list {
   min-height: 240px;
   width: 750px;

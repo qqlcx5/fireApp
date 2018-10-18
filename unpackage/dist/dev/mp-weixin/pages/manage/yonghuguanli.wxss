@@ -1,0 +1,74 @@
+
+.list {
+  min-height: 200rpx;
+  width: 710rpx;
+  margin: 20rpx;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 28rpx;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.item {
+  height: 100rpx;
+  width: 710rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+}
+.item .border {
+  height: 100rpx;
+  width: 710rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  border-bottom: 2rpx solid #eee;
+}
+.item-name {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  font-size: 32rpx;
+  color: #666666;
+}
+.item-clear {
+  font-size: 32rpx;
+  color: #999999;
+}
+.account {
+  width: 750rpx;
+  min-height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.account .btn {
+  width: 490rpx;
+  height: 88rpx;
+  border-radius: 12rpx;
+  border: solid 2rpx #d0021b;
+  line-height: 88rpx;
+  text-align: center;
+  font-size: 36rpx;
+  color: #d0021b;
+}
+.account .btn-out {
+  background-color: #d0021b;
+  color: #ffffff;
+}

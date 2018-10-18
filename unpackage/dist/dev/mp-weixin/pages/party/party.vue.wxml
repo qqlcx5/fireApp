@@ -15,15 +15,15 @@
         <image src="../../static/party1.png" class="_image data-v-227fd6bc"></image>
         <text class="_text data-v-227fd6bc item-name">机构设置</text>
       </view>
-      <view class="_view data-v-227fd6bc item" bindtap="handleProxy" data-eventid="{{'eDi-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-227fd6bc item" bindtap="handleProxy" data-eventid="{{'oJE-0'}}" data-comkey="{{$k}}">
         <image src="../../static/party2.png" class="_image data-v-227fd6bc"></image>
         <text class="_text data-v-227fd6bc item-name">组织生活</text>
       </view>
-      <view class="_view data-v-227fd6bc item" bindtap="handleProxy" data-eventid="{{'UQY-1'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-227fd6bc item" bindtap="handleProxy" data-eventid="{{'2uD-1'}}" data-comkey="{{$k}}">
         <image src="../../static/party3.png" class="_image data-v-227fd6bc"></image>
         <text class="_text data-v-227fd6bc item-name">党建经验</text>
       </view>
-      <view class="_view data-v-227fd6bc item" bindtap="handleProxy" data-eventid="{{'vYh-2'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-227fd6bc item" bindtap="handleProxy" data-eventid="{{'qEg-2'}}" data-comkey="{{$k}}">
         <image src="../../static/party4.png" class="_image data-v-227fd6bc"></image>
         <text class="_text data-v-227fd6bc item-name">学习经验</text>
       </view>

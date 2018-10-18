@@ -5,7 +5,8 @@
       <view class="header-content">
         包河消防
       </view>
-      <view class="header-right">
+      <view class="header-right"
+            >
         <text class="icon">&#xe622;</text>
       </view>
     </view>
@@ -17,15 +18,18 @@
         <image src="../../static/party1.png" />
         <text class="item-name">机构设置</text>
       </view>
-      <view class="item" @click="goTo('xuexijingyan')">
+      <view class="item"
+            @click="goTo('zuzhishenghuo')">
         <image src="../../static/party2.png" />
         <text class="item-name">组织生活</text>
       </view>
-      <view class="item" @click="goTo('xuexijingyan')">
+      <view class="item"
+            @click="goTo('xuexijingyan')">
         <image src="../../static/party3.png" />
         <text class="item-name">党建经验</text>
       </view>
-      <view class="item" @click="goTo('xuexijingyan')">
+      <view class="item"
+            @click="goTo('xuexijingyan')">
         <image src="../../static/party4.png" />
         <text class="item-name">学习经验</text>
       </view>
@@ -40,21 +44,16 @@ export default {
     return {}
   },
   methods: {
-    goback: function () {
-      uni.navigateBack({
-        delta: 1
+    goTo (url) {
+      uni.navigateTo({
+        url: url
       })
-    },
-		goTo (url) {
-			uni.navigateTo({
-				url: url
-			})
-		}
+    }
   }
 }
 </script>
 <style>
-.header {
+/* .header {
   height: 128px;
   width: 100%;
   display: flex;
@@ -82,7 +81,7 @@ export default {
   text-align: center;
   font-size: 36px;
   color: #ffffff;
-}
+} */
 
 .banner {
   height: 375px;

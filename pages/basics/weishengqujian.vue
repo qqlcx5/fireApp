@@ -48,7 +48,7 @@ export default {
 }
 </script>
 <style>
-.header {
+/* .header {
   height: 128px;
   width: 100%;
   display: flex;
@@ -75,7 +75,7 @@ export default {
   text-align: center;
   font-size: 36px;
   color: #ffffff;
-}
+} */
 .add-box {
   width: 750px;
   height: 80px;

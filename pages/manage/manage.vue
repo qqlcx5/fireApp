@@ -1,7 +1,7 @@
 <template>
   <view class="page">
     <view class="header-box">
-      <view class="header">
+      <view class="diff-header">
         <view class="header-left"></view>
         <view class="header-content">
           我的管理
@@ -18,12 +18,13 @@
     </view>
 
     <view class="list">
-      <view class="item">
+      <view class="item"
+            @click="goTo('yonghuguanli')">
         <text class="gIcon mgl30 mgr20">&#xe77e;</text>
         <view class="item-name">用户信息</view>
         <text class="gIcon mgr30">&#xe661;</text>
       </view>
-      <view class="item">
+      <view class="item" @click="goTo('xingzhengguanli')">
         <text class="gIcon mgl30 mgr20">&#xe608;</text>
         <view class="item-name">行政管理</view>
         <text class="gIcon mgr30">&#xe661;</text>
@@ -39,11 +40,17 @@ export default {
     return {}
   },
   methods: {
-    goback: function () {
-      uni.navigateBack({
-        delta: 1
+    goTo (url) {
+      uni.navigateTo({
+        url: url
       })
-    }
+    },
+		// 跳转到basics的消息页面失败
+// 		goreto(url){
+// 			uni.redirectTo({
+// 				url:url
+// 			})
+// 		}
   }
 }
 </script>
@@ -56,7 +63,8 @@ export default {
   background-image: linear-gradient(90deg, #e75551 0%, #c43164 100%);
   box-shadow: 0px 4px 8px 0px #e6e6e6;
 }
-.header {
+/* 样式被重叠掉 */
+.diff-header {
   height: 128px;
   width: 100%;
   display: flex;
@@ -64,20 +72,6 @@ export default {
   box-sizing: border-box;
   padding-top: 20px;
   align-items: center;
-}
-.header-left,
-.header-right {
-  width: 88px;
-  height: 88px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.header-content {
-  flex: 1;
-  font-size: 36px;
-  text-align: center;
-  color: #ffffff;
 }
 .banner {
   height: 292px;

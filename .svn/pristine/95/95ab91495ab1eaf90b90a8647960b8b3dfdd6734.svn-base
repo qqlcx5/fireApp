@@ -1,0 +1,103 @@
+
+.header {
+  height: 128rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding-top: 40rpx;
+  box-sizing: border-box;
+  padding-top: 20rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: #d0021b;
+  box-shadow: 0 4rpx 8rpx 0 #e6e6e6;
+}
+.header-left,
+.header-right {
+  width: 88rpx;
+  height: 88rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.header-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  font-size: 36rpx;
+  text-align: center;
+  font-size: 36rpx;
+  color: #ffffff;
+}
+.list {
+  min-height: 200rpx;
+  width: 750rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.item {
+  width: 750rpx;
+  height: 200rpx;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 30rpx;
+  box-sizing: border-box;
+  border-bottom: 2rpx solid #e6e6e6;
+  position: relative;
+}
+.item-left image {
+  width: 140rpx;
+  height: 140rpx;
+  background-color: #d8d8d8;
+}
+.item-right {
+  width: 520rpx;
+  height: 140rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.item-name {
+  font-size: 32rpx;
+  color: #666666;
+  font-weight: 700;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.item-desc {
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  color: #999999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.item-time {
+  position: absolute;
+  bottom: 10rpx;
+  right: 30rpx;
+  font-size: 20rpx;
+  color: #dadada;
+}
