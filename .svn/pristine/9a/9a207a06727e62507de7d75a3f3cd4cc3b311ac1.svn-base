@@ -1,0 +1,45 @@
+<template name="5c7f90c8">
+  <view class="_view data-v-2a217a2f page">
+    <view class="_view data-v-2a217a2f header">
+      <view class="_view data-v-2a217a2f header-left" bindtap="handleProxy" data-eventid="{{'52h-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-2a217a2f icon"></text>
+      </view>
+      <view class="_view data-v-2a217a2f header-content"> 包河消防 </view>
+      <view class="_view data-v-2a217a2f header-right">
+        <text class="_text data-v-2a217a2f icon"></text>
+      </view>
+    </view>
+    <view class="_view data-v-2a217a2f list mgt20">
+      <view class="_view data-v-2a217a2f item">
+        <view class="_view data-v-2a217a2f item-left">
+          <image src="../../static/user_2.jpg" class="_image data-v-2a217a2f"></image>
+        </view>
+        <view class="_view data-v-2a217a2f mgl30 item-right">
+          <text class="_text data-v-2a217a2f item-name">2018年11月火宅防范重点通知</text>
+          <text class="_text data-v-2a217a2f item-desc">11月入秋的季节是火宅季节是火宅隐患最高的时期，为了全面预防火灾，应该做到以下几点节是该做到以下几</text>
+        </view>
+        <text class="_text data-v-2a217a2f item-time">2018-10-22</text>
+      </view>
+      <view class="_view data-v-2a217a2f item">
+        <view class="_view data-v-2a217a2f item-left">
+          <image src="../../static/user_2.jpg" class="_image data-v-2a217a2f"></image>
+        </view>
+        <view class="_view data-v-2a217a2f mgl30 item-right">
+          <text class="_text data-v-2a217a2f item-name">2018年11月火宅防范重点通知</text>
+          <text class="_text data-v-2a217a2f item-desc">11月入秋的季节是火宅季节是火宅隐患最高的时期，为了全面预防火灾，应该做到以下几点节是该做到以下几</text>
+        </view>
+        <text class="_text data-v-2a217a2f item-time">2018-10-22</text>
+      </view>
+      <view class="_view data-v-2a217a2f item">
+        <view class="_view data-v-2a217a2f item-left">
+          <image src="../../static/user_2.jpg" class="_image data-v-2a217a2f"></image>
+        </view>
+        <view class="_view data-v-2a217a2f mgl30 item-right">
+          <text class="_text data-v-2a217a2f item-name">2018年11月火宅防范重点通知</text>
+          <text class="_text data-v-2a217a2f item-desc">11月入秋的季节是火宅季节是火宅隐患最高的时期，为了全面预防火灾，应该做到以下几点节是该做到以下几</text>
+        </view>
+        <text class="_text data-v-2a217a2f item-time">2018-10-22</text>
+      </view>
+    </view>
+  </view>
+</template>

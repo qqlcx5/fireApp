@@ -1,0 +1,45 @@
+
+.list {
+  min-height: 400rpx;
+  width: 750rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.item {
+  width: 373rpx;
+  height: 204rpx;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin: 0 4rpx 4rpx 0;
+}
+.item:nth-child(2n) {
+  margin-right: 0;
+}
+.car-img {
+  width: 160rpx;
+  height: 80rpx;
+}
+.gangshao-img {
+  width: 80rpx;
+  height: 80rpx;
+}
+.item-name {
+  line-height: 80rpx;
+  font-size: 32rpx;
+  color: #999999;
+}

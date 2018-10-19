@@ -1,0 +1,94 @@
+
+.table-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  min-height: 88rpx;
+  width: 750rpx;
+  font-size: 28rpx;
+  color: #666666;
+}
+.row-left,
+.row-right {
+  width: 180rpx;
+  min-height: 88rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-color: #fff;
+  border-right: 2rpx solid #e6e6e6;
+  border-bottom: 2rpx solid #e6e6e6;
+  box-sizing: border-box;
+}
+.row-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  min-height: 88rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-color: #fff;
+  border-right: 2rpx solid #e6e6e6;
+  border-bottom: 2rpx solid #e6e6e6;
+}
+.row-content-desc {
+  font-size: 24rpx;
+  color: #e6e6e6;
+}
+.agree {
+  margin-top: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 750rpx;
+  height: 180rpx;
+  background-color: #fff;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+  border-bottom: 2rpx solid #e6e6e6;
+}
+.submit {
+  width: 750rpx;
+  height: 144rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: #fff;
+}
+.gbtn {
+  background-color: #67ba61;
+}

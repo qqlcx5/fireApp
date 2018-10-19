@@ -1,0 +1,1 @@
+<import src="/pages/basics/kaoqin.vue.wxml" /><template is="cae3335a" data="{{ ...$root['0'], $root }}"/>

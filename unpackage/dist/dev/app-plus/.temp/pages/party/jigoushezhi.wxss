@@ -1,0 +1,12 @@
+
+.header-box {
+  height: 1206rpx;
+  width: 750rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.header-box image {
+  width: 100%;
+  height: 100%;
+}
