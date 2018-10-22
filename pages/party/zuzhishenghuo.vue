@@ -16,37 +16,37 @@
       <view class="item"
             @click="goTo('zuzhishenghouinfo1')">
         <image src="../../static/zuzhishenghuo1.png"
-               mode=""></image>
+               mode="" />
         党小组会
       </view>
       <view class="item"
             @click="goTo('zuzhishenghouinfo2')">
         <image src="../../static/zuzhishenghuo2.png"
-               mode=""></image>
+               mode="" />
         党日制度
       </view>
       <view class="item"
             @click="goTo('zuzhishenghouinfo3')">
         <image src="../../static/zuzhishenghuo3.png"
-               mode=""></image>
+               mode="" />
         党课制度
       </view>
       <view class="item"
             @click="goTo('zuzhishenghouinfo4')">
         <image src="../../static/zuzhishenghuo4.png"
-               mode=""></image>
+               mode="" />
         党员汇报制度
       </view>
       <view class="item"
             @click="goTo('zuzhishenghouinfo5')">
         <image src="../../static/zuzhishenghuo5.png"
-               mode=""></image>
+               mode="" />
         支委会
       </view>
       <view class="item"
             @click="goTo('zuzhishenghouinfo6')">
         <image src="../../static/zuzhishenghuo6.png"
-               mode=""></image>
+               mode="" />
         民主评议党员制度
       </view>
 
