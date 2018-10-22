@@ -1,0 +1,5 @@
+<template name="483907c3"><view class="_view data-v-f73a03e0 page"><view class="_view data-v-f73a03e0 header"><view class="_view data-v-f73a03e0 header-left" bindtap="handleProxy" data-eventid="{{'tkS-0'}}" data-comkey="{{$k}}"><text class="_text data-v-f73a03e0 icon"></text></view> <view class="_view data-v-f73a03e0 header-content">
+			登录
+		</view> <view class="_view data-v-f73a03e0 header-right"><text class="_text data-v-f73a03e0 icon"></text></view></view> <view class="_view data-v-f73a03e0 list"><view class="_view data-v-f73a03e0 item  "><text class="_text data-v-f73a03e0 gIcon mgl30 mgr20"></text> <input type="text" class="_input data-v-f73a03e0 item-name" placeholder="请输入账号" /></view> <view class="_view data-v-f73a03e0 item  "><text class="_text data-v-f73a03e0 gIcon mgl30 mgr20"></text> <input type="text" class="_input data-v-f73a03e0 item-name" placeholder="请输入密码" /></view></view> <view class="_view data-v-f73a03e0 keep"><view class="_view data-v-f73a03e0 btn">
+			登录
+		</view></view></view></template>

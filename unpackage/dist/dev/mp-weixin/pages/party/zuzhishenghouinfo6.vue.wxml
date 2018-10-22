@@ -1,0 +1,17 @@
+<template name="864c62ec">
+  <view class="_view data-v-43f596dd page">
+    <view class="_view data-v-43f596dd header">
+      <view class="_view data-v-43f596dd header-left" bindtap="handleProxy" data-eventid="{{'ozF-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-43f596dd icon"></text>
+      </view>
+      <view class="_view data-v-43f596dd header-content"> 组织生活 </view>
+      <view class="_view data-v-43f596dd header-right">
+        <text class="_text data-v-43f596dd icon"></text>
+      </view>
+    </view>
+    <view class="_view data-v-43f596dd info">
+      <view class="_view data-v-43f596dd info-title">民主评议党员制度</view>
+      <view class="_view data-v-43f596dd info-msg"> 民主评议党员制度（每年一次）民主评议党员制度是党组织依据党员标准对每个党员在各项工作中的表现和作用作出客观的评价，促使每一名党员自觉接受群众监督的一项重要组织生活制度。坚持这一制度对于强化民主监督、激励党员保持先进性、纯洁党员队伍具有重要意义。民主评议党员通常采取党内与党外相结合的方法，每年至少开展一次，一般结合半年工作总结进行。 </view>
+    </view>
+  </view>
+</template>
