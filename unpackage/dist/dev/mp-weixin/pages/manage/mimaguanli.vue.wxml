@@ -1,7 +1,7 @@
 <template name="e22e23c4">
   <view class="_view data-v-6024401e page">
     <view class="_view data-v-6024401e header">
-      <view class="_view data-v-6024401e header-left" bindtap="handleProxy" data-eventid="{{'QVf-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-6024401e header-left" bindtap="handleProxy" data-eventid="{{'bUA-0'}}" data-comkey="{{$k}}">
         <text class="_text data-v-6024401e icon"></text>
       </view>
       <view class="_view data-v-6024401e header-content"> 密码管理 </view>

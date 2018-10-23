@@ -53,7 +53,7 @@ page {
   font-family: iconfont;
   font-weight: normal;
   font-style: normal;
-  src: url('https://at.alicdn.com/t/font_874003_bz20jm6bu6f.ttf')
+  src: url('https://at.alicdn.com/t/font_874003_9rw87a8y04t.ttf')
     format('truetype');
 }
 

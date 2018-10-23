@@ -1,4 +1,9 @@
 
+page {
+  width: 750rpx;
+  min-height: 100vh;
+  background-color: #fff;
+}
 .info {
   display: -webkit-box;
   display: -webkit-flex;
@@ -18,12 +23,32 @@
   color: #333333;
   font-weight: bold;
 }
-.info-msg {
+.article {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
   width: 750rpx;
+  min-height: 0;
   padding: 0 30rpx;
   box-sizing: border-box;
-  text-align: justify;
-  font-size: 24rpx;
+}
+.text {
   line-height: 40rpx;
+  font-size: 24rpx;
   color: #666666;
+  margin-bottom: 30rpx;
+  display: block;
+  text-align: justify;
+}
+.message-img {
+  width: 670rpx;
+  height: 320rpx;
+  background-color: #d8d8d8;
+  box-shadow: 0 4rpx 8rpx 0 #e5e5e5;
+  border-radius: 12rpx;
+  margin: 0 auto 30rpx;
 }

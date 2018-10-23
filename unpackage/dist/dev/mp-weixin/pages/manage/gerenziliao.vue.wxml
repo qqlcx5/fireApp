@@ -1,7 +1,7 @@
 <template name="7419eb31">
   <view class="_view data-v-53b333be page">
     <view class="_view data-v-53b333be header">
-      <view class="_view data-v-53b333be header-left" bindtap="handleProxy" data-eventid="{{'4M6-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-53b333be header-left" bindtap="handleProxy" data-eventid="{{'jub-0'}}" data-comkey="{{$k}}">
         <text class="_text data-v-53b333be icon"></text>
       </view>
       <view class="_view data-v-53b333be header-content"> 用户信息 </view>
@@ -25,7 +25,7 @@
       </view>
       <view class="_view data-v-53b333be item">
         <view class="_view data-v-53b333be border">
-          <picker class="_picker data-v-53b333be picker-item" mode="selector" range="{{array}}" bindchange="handleProxy" data-eventid="{{'uE9-1'}}" data-comkey="{{$k}}">
+          <picker class="_picker data-v-53b333be picker-item" mode="selector" range="{{array}}" bindchange="handleProxy" data-eventid="{{'hs4-1'}}" data-comkey="{{$k}}">
             <view class="_view data-v-53b333be">
               <text class="_text data-v-53b333be picker-name">性别</text>{{array[textValue]}}</view>
           </picker>
@@ -33,8 +33,10 @@
       </view>
       <view class="_view data-v-53b333be item">
         <view class="_view data-v-53b333be border">
-          <text class="_text data-v-53b333be item-name">职务</text>
-          <input class="_input data-v-53b333be item-input" type="text" placeholder="消防一队队长" />
+          <picker class="_picker data-v-53b333be picker-item" mode="selector" range="{{array2}}" bindchange="handleProxy" data-eventid="{{'6zj-2'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-53b333be">
+              <text class="_text data-v-53b333be picker-name">职务</text>{{array2[textValue2]}}</view>
+          </picker>
         </view>
       </view>
       <view class="_view data-v-53b333be item">

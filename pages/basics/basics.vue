@@ -28,7 +28,8 @@
         <image src="../../static/basics1.png" />
         <view class="item-name mgl20">执 勤</view>
       </view>
-      <view class="item" @click="goTo('kaoqin')">
+      <view class="item"
+            @click="goTo('kaoqin')">
         <image src="../../static/basics2.png" />
         <view class="item-name mgl20">考 勤</view>
       </view>
@@ -37,15 +38,18 @@
         <image src="../../static/basics3.png" />
         <view class="item-name mgl20">卫生区检</view>
       </view>
-      <view class="item" @click="goTo('qingjiawaichu')">
+      <view class="item"
+            @click="goTo('qingjiawaichu')">
         <image src="../../static/basics4.png" />
         <view class="item-name mgl20">请假外出</view>
       </view>
-      <view class="item" @click="goTo('zhuangbeijiancha')">
+      <view class="item"
+            @click="goTo('zhuangbeijiancha')">
         <image src="../../static/basics5.png" />
         <view class="item-name mgl20">装备检查</view>
       </view>
-      <view class="item" @click="goTo('xunlianjihua')">
+      <view class="item"
+            @click="goTo('xunlianjihua')">
         <image src="../../static/basics6.png" />
         <view class="item-name mgl20">训练计划</view>
       </view>

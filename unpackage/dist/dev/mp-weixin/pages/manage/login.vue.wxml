@@ -1,18 +1,12 @@
 <template name="483907c3">
   <view class="_view data-v-f73a03e0 page">
-    <view class="_view data-v-f73a03e0 header">
-      <view class="_view data-v-f73a03e0 header-left" bindtap="handleProxy" data-eventid="{{'r5e-0'}}" data-comkey="{{$k}}">
-        <text class="_text data-v-f73a03e0 icon"></text>
-      </view>
-      <view class="_view data-v-f73a03e0 header-content"> 登录 </view>
-      <view class="_view data-v-f73a03e0 header-right">
-        <text class="_text data-v-f73a03e0 icon"></text>
-      </view>
+    <view class="_view data-v-f73a03e0 banner">
+      <image src="../../static/login.png" class="_image data-v-f73a03e0"></image>
     </view>
     <view class="_view data-v-f73a03e0 list">
       <view class="_view data-v-f73a03e0 item  ">
         <text class="_text data-v-f73a03e0 gIcon mgl30 mgr20"></text>
-        <input type="text" class="_input data-v-f73a03e0 item-name" placeholder="请输入账号" />
+        <input type="text" class="_input data-v-f73a03e0 item-name" placeholder="请输入账号" value="{{account}}" bindinput="handleProxy" data-eventid="{{'BiX-0'}}" data-comkey="{{$k}}" />
       </view>
       <view class="_view data-v-f73a03e0 item  ">
         <text class="_text data-v-f73a03e0 gIcon mgl30 mgr20"></text>
@@ -20,7 +14,7 @@
       </view>
     </view>
     <view class="_view data-v-f73a03e0 keep">
-      <view class="_view data-v-f73a03e0 btn"> 登录 </view>
+      <view class="_view data-v-f73a03e0 btn" bindtap="handleProxy" data-eventid="{{'kpJ-1'}}" data-comkey="{{$k}}"> 登录 </view>
     </view>
   </view>
 </template>

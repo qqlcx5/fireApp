@@ -35,9 +35,9 @@
 			</view>
 			<view class="item">
 				<view class="border">
-					<text class="item-name">职务</text>
-					<input class="item-input" type="text" placeholder="消防一队队长">
-
+					<picker class="picker-item" mode="selector" :range="array2" @change="textChange2">
+						<view><text class="picker-name">职务</text>{{array2[textValue2]}}</view>
+					</picker>
 				</view>
 			</view>
 			<view class="item">
@@ -61,6 +61,8 @@
 			return {
 				array: ['男', '女'],
 				textValue: 0,
+				array2:['消防一队队长','消防2队队长','消防3队队长'],
+				textValue2: 0
 			}
 		},
 		methods: {
@@ -70,10 +72,11 @@
 				})
 			},
 			textChange(evt) {
-				console.log(evt.detail.value)
+				 
 				this.textValue = evt.detail.value;
-				
-			},
+			},textChange2(evt) {				 
+				this.textValue2 = evt.detail.value;
+			}
 		}
 	}
 </script>

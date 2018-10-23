@@ -1,7 +1,7 @@
 <template name="76398d82">
   <view class="_view data-v-47a7a6e2 page">
     <view class="_view data-v-47a7a6e2 header">
-      <view class="_view data-v-47a7a6e2 header-left" bindtap="handleProxy" data-eventid="{{'KfR-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-47a7a6e2 header-left" bindtap="handleProxy" data-eventid="{{'utI-0'}}" data-comkey="{{$k}}">
         <text class="_text data-v-47a7a6e2 icon"></text>
       </view>
       <view class="_view data-v-47a7a6e2 header-content"> 检查列表 </view>

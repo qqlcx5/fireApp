@@ -1,7 +1,7 @@
 <template name="39d37df6">
   <view class="_view data-v-983d71d0 page">
     <view class="_view data-v-983d71d0 header">
-      <view class="_view data-v-983d71d0 header-left" bindtap="handleProxy" data-eventid="{{'FNM-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-983d71d0 header-left" bindtap="handleProxy" data-eventid="{{'jrd-0'}}" data-comkey="{{$k}}">
         <text class="_text data-v-983d71d0 icon"></text>
       </view>
       <view class="_view data-v-983d71d0 header-content"> 卫生区检 </view>

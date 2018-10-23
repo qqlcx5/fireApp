@@ -13,10 +13,17 @@
       </view>
     </view>
     <view class="info">
-      <view class="info-title">党员汇报制度</view>
-      <view class="info-msg">
-        党员汇报制度（每两月一次）党员汇报是党员每月向党组织汇报思想和工作情况，进而增强党组织与党员的联系，加强党员队伍管理的制度。党员汇报每两个月组织一次，遇有重要问题时及时汇报，外出时间较长时，作书面汇报。党员汇报的主要内容是：党员个人的思想、工作、学习、作风、执行支部决议情况，个人实际困难和问题，群众的情况和要求，周围的好人好事和不良倾向，对支部工作的意见和建议等。每次汇报，要有中心，言简意赅，主次分明，主要把自己感受体会最深的问题和意见汇报出来。遇到重大问题，应迅速、如实、详细汇报，绝不能隐瞒事实和自己的观点。
-      </view>
+      <view class="info-title">党日制度</view>
+
+    </view>
+    <view class="article">
+      <text class="text"
+            decode=true>&emsp;&emsp;党日制度（每周一次）党日是党的组织和党员进行党的活动的专门时间。</text>
+      <image src='../../static/zuzhishenghouinfo4.png'
+             class="message-img" />
+      <text class="text"
+            decode=true>&emsp;&emsp; 根据《政治工作条例》规定,每周用半天时间进行党的组织活动。每月的四个党日时间,一般两个用于党的教育,两个用于召开党的会议,处理支部业务或进行党的其他活动。党日时间必要时可以集中使用，但集中党日时间进行教育一般限于当月，且每年集中次数不宜过多，保证党日活动经常化。</text>
+
     </view>
   </view>
 
@@ -37,6 +44,11 @@ export default {
 }
 </script>
 <style>
+page {
+  width: 750px;
+  min-height: 100vh;
+  background-color: #fff;
+}
 .info {
   display: flex;
   flex-direction: column;
@@ -51,13 +63,28 @@ export default {
   color: #333333;
   font-weight: bold;
 }
-.info-msg {
+.article {
+  display: flex;
+  flex-direction: column;
   width: 750px;
+  min-height: 0px;
   padding: 0 30px;
   box-sizing: border-box;
-  text-align: justify;
-  font-size: 24px;
+}
+.text {
   line-height: 40px;
+  font-size: 24px;
   color: #666666;
+  margin-bottom: 30px;
+  display: block;
+  text-align: justify;
+}
+.message-img {
+  width: 670px;
+  height: 320px;
+  background-color: #d8d8d8;
+  box-shadow: 0px 4px 8px 0px #e5e5e5;
+  border-radius: 12px;
+  margin: 0 auto 30px;
 }
 </style>

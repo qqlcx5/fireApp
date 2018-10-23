@@ -35,9 +35,21 @@
           <view class="border">
             <picker class="picker-item"
                     mode="date"
-                    :range="startdate"
+                    start="2018-01-01"
+                    end="2019-01-01"
                     @change="startdateChange">
-              <view><text class="picker-name">开始时间</text>{{startdate}}</view>
+              <view><text class="picker-name">开始日期</text>{{startdate}}</view>
+            </picker>
+          </view>
+        </view>
+        <view class="item">
+          <view class="border">
+            <picker class="picker-item"
+                    mode="time"
+                    start="08:00"
+                    end="20:00"
+                    @change="starttimeChange">
+              <view><text class="picker-name">开始时间</text>{{starttime}}</view>
             </picker>
           </view>
         </view>
@@ -45,13 +57,24 @@
           <view class="border">
             <picker class="picker-item"
                     mode="date"
-                    :range="enddate"
+                    start="2018-01-01"
+                    end="2019-01-01"
                     @change="enddateChange">
-              <view><text class="picker-name">结束时间</text>{{enddate}}</view>
+              <view><text class="picker-name">结束日期</text>{{enddate}}</view>
             </picker>
           </view>
         </view>
-
+        <view class="item">
+          <view class="border">
+            <picker class="picker-item"
+                    mode="time"
+                    start="08:00"
+                    end="20:00"
+                    @change="endtimeChange">
+              <view><text class="picker-name">结束时间</text>{{endtime}}</view>
+            </picker>
+          </view>
+        </view>
       </view>
       <view class="list">
         <view class="item">
@@ -67,7 +90,7 @@
       <view class="list">
         <view class="picture">
           <text class="picture-name">图片</text>
-          <text class="addIcon">&#xe64a;</text>
+          <text class="addIcon">&#xe604;</text>
         </view>
       </view>
     </view>
@@ -88,7 +111,9 @@ export default {
       array: ['病假', '事假', '年假'],
       textValue: 0,
       startdate: '2018-01-01',
-      enddate: '2018-01-01',
+      enddate: '2018-05-08',
+      starttime: '09:00',
+      endtime: '09:00'
     }
   },
   methods: {
@@ -102,6 +127,7 @@ export default {
         url: url
       })
     },
+    //请假方式
     textChange (evt) {
       console.log(evt.detail.value)
       this.textValue = evt.detail.value;
@@ -110,6 +136,13 @@ export default {
     startdateChange (evt) {
       this.startdate = evt.detail.value;
 
+    },
+    starttimeChange (evt) {
+      this.starttime = evt.detail.value;
+    },
+    //结束日期
+    endtimeChange (evt) {
+      this.endtime = evt.detail.value;
     },
     enddateChange (evt) {
       this.enddate = evt.detail.value;
@@ -193,7 +226,7 @@ export default {
   width: 750px;
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin: 100px 0;
 }
 .submit .btn {
   background-color: #67ba61;

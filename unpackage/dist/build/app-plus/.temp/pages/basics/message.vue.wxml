@@ -1,4 +1,4 @@
-<template name="22c43581"><view class="_view data-v-076c66e4 page"><view class="_view data-v-076c66e4 header"><view class="_view data-v-076c66e4 header-left" bindtap="handleProxy" data-eventid="{{'b8y-0'}}" data-comkey="{{$k}}"><text class="_text data-v-076c66e4 icon"></text></view> <view class="_view data-v-076c66e4 header-content">
+<template name="22c43581"><view class="_view data-v-076c66e4 page"><view class="_view data-v-076c66e4 header"><view class="_view data-v-076c66e4 header-left" bindtap="handleProxy" data-eventid="{{'4Z7-0'}}" data-comkey="{{$k}}"><text class="_text data-v-076c66e4 icon"></text></view> <view class="_view data-v-076c66e4 header-content">
       消息通知
     </view> <view class="_view data-v-076c66e4 header-right"></view></view> <view class="_view data-v-076c66e4 list"><view class="_view data-v-076c66e4 item mgt20"><view class="_view data-v-076c66e4 item-time">
         2018-10-22 09:53

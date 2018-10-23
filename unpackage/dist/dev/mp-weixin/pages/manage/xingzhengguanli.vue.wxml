@@ -1,7 +1,7 @@
 <template name="c7bad010">
   <view class="_view data-v-059ad205 page">
     <view class="_view data-v-059ad205 header">
-      <view class="_view data-v-059ad205 header-left" bindtap="handleProxy" data-eventid="{{'uTo-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-059ad205 header-left" bindtap="handleProxy" data-eventid="{{'zC3-0'}}" data-comkey="{{$k}}">
         <text class="_text data-v-059ad205 icon"></text>
       </view>
       <view class="_view data-v-059ad205 header-content"> 行政管理 </view>
@@ -10,19 +10,19 @@
       </view>
     </view>
     <view class="_view data-v-059ad205 list mgt20">
-      <view class="_view data-v-059ad205 item" bindtap="handleProxy" data-eventid="{{'laA-1'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-059ad205 item" bindtap="handleProxy" data-eventid="{{'OwA-1'}}" data-comkey="{{$k}}">
         <image src="../../static/xingzhengguanli1.png" class="_image data-v-059ad205"></image>
         <view class="_view data-v-059ad205 item-name mgl20">会议列表</view>
       </view>
-      <view class="_view data-v-059ad205 item" bindtap="handleProxy" data-eventid="{{'aLq-2'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-059ad205 item" bindtap="handleProxy" data-eventid="{{'De4-2'}}" data-comkey="{{$k}}">
         <image src="../../static/xingzhengguanli2.png" class="_image data-v-059ad205"></image>
         <view class="_view data-v-059ad205 item-name mgl20">制订会议</view>
       </view>
-      <view class="_view data-v-059ad205 item" bindtap="handleProxy" data-eventid="{{'pPh-3'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-059ad205 item" bindtap="handleProxy" data-eventid="{{'W4g-3'}}" data-comkey="{{$k}}">
         <image src="../../static/xingzhengguanli3.png" class="_image data-v-059ad205"></image>
         <view class="_view data-v-059ad205 item-name mgl20">会议删改查</view>
       </view>
-      <view class="_view data-v-059ad205 item" bindtap="handleProxy" data-eventid="{{'4Sy-4'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-059ad205 item" bindtap="handleProxy" data-eventid="{{'IjI-4'}}" data-comkey="{{$k}}">
         <image src="../../static/xingzhengguanli4.png" class="_image data-v-059ad205"></image>
         <view class="_view data-v-059ad205 item-name mgl20">下发通知</view>
       </view>

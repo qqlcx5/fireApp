@@ -1,7 +1,7 @@
 <template name="6961900a">
   <view class="_view data-v-7cf1591d page">
     <view class="_view data-v-7cf1591d header">
-      <view class="_view data-v-7cf1591d header-left" bindtap="handleProxy" data-eventid="{{'fZQ-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-7cf1591d header-left" bindtap="handleProxy" data-eventid="{{'WXT-0'}}" data-comkey="{{$k}}">
         <text class="_text data-v-7cf1591d icon"></text>
       </view>
       <view class="_view data-v-7cf1591d header-content"> 用户信息 </view>
@@ -10,13 +10,13 @@
       </view>
     </view>
     <view class="_view data-v-7cf1591d list">
-      <view class="_view data-v-7cf1591d item" bindtap="handleProxy" data-eventid="{{'LZu-1'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-7cf1591d item" bindtap="handleProxy" data-eventid="{{'UHv-1'}}" data-comkey="{{$k}}">
         <view class="_view data-v-7cf1591d border">
           <text class="_text data-v-7cf1591d item-name">个人资料</text>
           <text class="_text data-v-7cf1591d gIcon"></text>
         </view>
       </view>
-      <view class="_view data-v-7cf1591d item" bindtap="handleProxy" data-eventid="{{'vx6-2'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-7cf1591d item" bindtap="handleProxy" data-eventid="{{'8FG-2'}}" data-comkey="{{$k}}">
         <view class="_view data-v-7cf1591d border">
           <text class="_text data-v-7cf1591d item-name">密码管理</text>
           <text class="_text data-v-7cf1591d gIcon"></text>

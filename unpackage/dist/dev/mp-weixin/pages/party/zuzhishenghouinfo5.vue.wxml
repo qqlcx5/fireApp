@@ -1,7 +1,7 @@
 <template name="866891ee">
   <view class="_view data-v-43e77f5c page">
     <view class="_view data-v-43e77f5c header">
-      <view class="_view data-v-43e77f5c header-left" bindtap="handleProxy" data-eventid="{{'MvR-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-43e77f5c header-left" bindtap="handleProxy" data-eventid="{{'ZCB-0'}}" data-comkey="{{$k}}">
         <text class="_text data-v-43e77f5c icon"></text>
       </view>
       <view class="_view data-v-43e77f5c header-content"> 组织生活 </view>
@@ -10,8 +10,12 @@
       </view>
     </view>
     <view class="_view data-v-43e77f5c info">
-      <view class="_view data-v-43e77f5c info-title">支委会</view>
-      <view class="_view data-v-43e77f5c info-msg"> 支委会（每月一次）支部委员会在支部党员大会闭会期间，负责处理党支部日常工作，集体讨论、决定和处理本单位的重大问题。支委会根据工作需要召开，一般每半月召开一次为宜。遇有紧急问题，可随时召开。支委会一般由书记、副书记主持。支部委员会讨论研究的问题，按照《政治工作条例》第四十二条和第二十五条的规定执行。召开支部委员会的基本程序、方法和要求： </view>
+      <view class="_view data-v-43e77f5c info-title">党员汇报制度</view>
+    </view>
+    <view class="_view data-v-43e77f5c article">
+      <text class="_text data-v-43e77f5c text" decode="true">  党员汇报制度（每两月一次）党员汇报是党员每月向党组织汇报思想和工作情况，进而增强党组织与党员的联系，加强党员队伍管理的制度。</text>
+      <image src="../../static/zuzhishenghouinfo5.png" class="_image data-v-43e77f5c message-img"></image>
+      <text class="_text data-v-43e77f5c text" decode="true">  党员汇报每两个月组织一次，遇有重要问题时及时汇报，外出时间较长时，作书面汇报。党员汇报的主要内容是：党员个人的思想、工作、学习、作风、执行支部决议情况，个人实际困难和问题，群众的情况和要求，周围的好人好事和不良倾向，对支部工作的意见和建议等。每次汇报，要有中心，言简意赅，主次分明，主要把自己感受体会最深的问题和意见汇报出来。遇到重大问题，应迅速、如实、详细汇报，绝不能隐瞒事实和自己的观点。</text>
     </view>
   </view>
 </template>

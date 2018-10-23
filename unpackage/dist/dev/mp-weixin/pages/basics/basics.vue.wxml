@@ -3,7 +3,7 @@
     <view class="_view data-v-3b6a7ace header">
       <view class="_view data-v-3b6a7ace header-left"></view>
       <view class="_view data-v-3b6a7ace header-content"> 包河消防 </view>
-      <view class="_view data-v-3b6a7ace header-right" bindtap="handleProxy" data-eventid="{{'NGr-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-3b6a7ace header-right" bindtap="handleProxy" data-eventid="{{'k2E-0'}}" data-comkey="{{$k}}">
         <text class="_text data-v-3b6a7ace icon"></text>
       </view>
     </view>
@@ -15,27 +15,27 @@
       <text class="_text data-v-3b6a7ace">第四届全国119消防奖拟表彰对象公示</text>
     </view>
     <view class="_view data-v-3b6a7ace list mgt20">
-      <view class="_view data-v-3b6a7ace item" bindtap="handleProxy" data-eventid="{{'wpt-1'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-3b6a7ace item" bindtap="handleProxy" data-eventid="{{'gRY-1'}}" data-comkey="{{$k}}">
         <image src="../../static/basics1.png" class="_image data-v-3b6a7ace"></image>
         <view class="_view data-v-3b6a7ace item-name mgl20">执 勤</view>
       </view>
-      <view class="_view data-v-3b6a7ace item" bindtap="handleProxy" data-eventid="{{'NDq-2'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-3b6a7ace item" bindtap="handleProxy" data-eventid="{{'cDc-2'}}" data-comkey="{{$k}}">
         <image src="../../static/basics2.png" class="_image data-v-3b6a7ace"></image>
         <view class="_view data-v-3b6a7ace item-name mgl20">考 勤</view>
       </view>
-      <view class="_view data-v-3b6a7ace item" bindtap="handleProxy" data-eventid="{{'LWf-3'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-3b6a7ace item" bindtap="handleProxy" data-eventid="{{'mWx-3'}}" data-comkey="{{$k}}">
         <image src="../../static/basics3.png" class="_image data-v-3b6a7ace"></image>
         <view class="_view data-v-3b6a7ace item-name mgl20">卫生区检</view>
       </view>
-      <view class="_view data-v-3b6a7ace item" bindtap="handleProxy" data-eventid="{{'oyu-4'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-3b6a7ace item" bindtap="handleProxy" data-eventid="{{'WPH-4'}}" data-comkey="{{$k}}">
         <image src="../../static/basics4.png" class="_image data-v-3b6a7ace"></image>
         <view class="_view data-v-3b6a7ace item-name mgl20">请假外出</view>
       </view>
-      <view class="_view data-v-3b6a7ace item" bindtap="handleProxy" data-eventid="{{'5S3-5'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-3b6a7ace item" bindtap="handleProxy" data-eventid="{{'3az-5'}}" data-comkey="{{$k}}">
         <image src="../../static/basics5.png" class="_image data-v-3b6a7ace"></image>
         <view class="_view data-v-3b6a7ace item-name mgl20">装备检查</view>
       </view>
-      <view class="_view data-v-3b6a7ace item" bindtap="handleProxy" data-eventid="{{'rKA-6'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-3b6a7ace item" bindtap="handleProxy" data-eventid="{{'LbG-6'}}" data-comkey="{{$k}}">
         <image src="../../static/basics6.png" class="_image data-v-3b6a7ace"></image>
         <view class="_view data-v-3b6a7ace item-name mgl20">训练计划</view>
       </view>

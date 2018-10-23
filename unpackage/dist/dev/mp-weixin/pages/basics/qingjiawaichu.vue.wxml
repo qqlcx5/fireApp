@@ -1,7 +1,7 @@
 <template name="5e9d0a88">
   <view class="_view data-v-2f1ad409 page">
     <view class="_view data-v-2f1ad409 header">
-      <view class="_view data-v-2f1ad409 header-left" bindtap="handleProxy" data-eventid="{{'xiZ-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-2f1ad409 header-left" bindtap="handleProxy" data-eventid="{{'Goc-0'}}" data-comkey="{{$k}}">
         <text class="_text data-v-2f1ad409 icon"></text>
       </view>
       <view class="_view data-v-2f1ad409 header-content"> 请假 </view>
@@ -13,7 +13,7 @@
       <view class="_view data-v-2f1ad409 list">
         <view class="_view data-v-2f1ad409 item">
           <view class="_view data-v-2f1ad409 border">
-            <picker class="_picker data-v-2f1ad409 picker-item" mode="selector" range="{{array}}" bindchange="handleProxy" data-eventid="{{'1PW-1'}}" data-comkey="{{$k}}">
+            <picker class="_picker data-v-2f1ad409 picker-item" mode="selector" range="{{array}}" bindchange="handleProxy" data-eventid="{{'oIV-1'}}" data-comkey="{{$k}}">
               <view class="_view data-v-2f1ad409">
                 <text class="_text data-v-2f1ad409 picker-name">请假类型</text>{{array[textValue]}}</view>
             </picker>
@@ -28,17 +28,33 @@
         </view>
         <view class="_view data-v-2f1ad409 item">
           <view class="_view data-v-2f1ad409 border">
-            <picker class="_picker data-v-2f1ad409 picker-item" mode="date" range="{{startdate}}" bindchange="handleProxy" data-eventid="{{'BFH-2'}}" data-comkey="{{$k}}">
+            <picker class="_picker data-v-2f1ad409 picker-item" mode="date" start="2018-01-01" end="2019-01-01" bindchange="handleProxy" data-eventid="{{'yD3-2'}}" data-comkey="{{$k}}">
               <view class="_view data-v-2f1ad409">
-                <text class="_text data-v-2f1ad409 picker-name">开始时间</text>{{startdate}}</view>
+                <text class="_text data-v-2f1ad409 picker-name">开始日期</text>{{startdate}}</view>
             </picker>
           </view>
         </view>
         <view class="_view data-v-2f1ad409 item">
           <view class="_view data-v-2f1ad409 border">
-            <picker class="_picker data-v-2f1ad409 picker-item" mode="date" range="{{enddate}}" bindchange="handleProxy" data-eventid="{{'OLu-3'}}" data-comkey="{{$k}}">
+            <picker class="_picker data-v-2f1ad409 picker-item" mode="time" start="08:00" end="20:00" bindchange="handleProxy" data-eventid="{{'Q62-3'}}" data-comkey="{{$k}}">
               <view class="_view data-v-2f1ad409">
-                <text class="_text data-v-2f1ad409 picker-name">结束时间</text>{{enddate}}</view>
+                <text class="_text data-v-2f1ad409 picker-name">开始时间</text>{{starttime}}</view>
+            </picker>
+          </view>
+        </view>
+        <view class="_view data-v-2f1ad409 item">
+          <view class="_view data-v-2f1ad409 border">
+            <picker class="_picker data-v-2f1ad409 picker-item" mode="date" start="2018-01-01" end="2019-01-01" bindchange="handleProxy" data-eventid="{{'Z8B-4'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-2f1ad409">
+                <text class="_text data-v-2f1ad409 picker-name">结束日期</text>{{enddate}}</view>
+            </picker>
+          </view>
+        </view>
+        <view class="_view data-v-2f1ad409 item">
+          <view class="_view data-v-2f1ad409 border">
+            <picker class="_picker data-v-2f1ad409 picker-item" mode="time" start="08:00" end="20:00" bindchange="handleProxy" data-eventid="{{'JdO-5'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-2f1ad409">
+                <text class="_text data-v-2f1ad409 picker-name">结束时间</text>{{endtime}}</view>
             </picker>
           </view>
         </view>
@@ -56,7 +72,7 @@
       <view class="_view data-v-2f1ad409 list">
         <view class="_view data-v-2f1ad409 picture">
           <text class="_text data-v-2f1ad409 picture-name">图片</text>
-          <text class="_text data-v-2f1ad409 addIcon"></text>
+          <text class="_text data-v-2f1ad409 addIcon"></text>
         </view>
       </view>
     </view>
