@@ -1,0 +1,50 @@
+<template name="79b48bea">
+  <view class="_view data-v-e5775606 page">
+    <view class="_view data-v-e5775606 header">
+      <view class="_view data-v-e5775606 header-left" bindtap="handleProxy" data-eventid="{{'7Yj-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-e5775606 icon"></text>
+      </view>
+      <view class="_view data-v-e5775606 header-content"> 用户信息 </view>
+      <view class="_view data-v-e5775606 header-right">
+        <text class="_text data-v-e5775606 icon"></text>
+      </view>
+    </view>
+    <view class="_view data-v-e5775606 list">
+      <view class="_view data-v-e5775606 item" bindtap="handleProxy" data-eventid="{{'p0A-1'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-e5775606 border">
+          <text class="_text data-v-e5775606 item-name">个人资料</text>
+          <text class="_text data-v-e5775606 gIcon"></text>
+        </view>
+      </view>
+      <view class="_view data-v-e5775606 item" bindtap="handleProxy" data-eventid="{{'nXp-2'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-e5775606 border">
+          <text class="_text data-v-e5775606 item-name">密码管理</text>
+          <text class="_text data-v-e5775606 gIcon"></text>
+        </view>
+      </view>
+      <view class="_view data-v-e5775606 item">
+        <view class="_view data-v-e5775606 border">
+          <text class="_text data-v-e5775606 item-name">用户身份</text>
+          <text class="_text data-v-e5775606 gIcon"></text>
+        </view>
+      </view>
+      <view class="_view data-v-e5775606 item">
+        <view class="_view data-v-e5775606 border">
+          <text class="_text data-v-e5775606 item-name">常用分组</text>
+          <text class="_text data-v-e5775606 gIcon"></text>
+        </view>
+      </view>
+      <view class="_view data-v-e5775606 item">
+        <view class="_view data-v-e5775606 border">
+          <text class="_text data-v-e5775606 item-name">清除缓存</text>
+          <text class="_text data-v-e5775606 item-clear">338M</text>
+          <text class="_text data-v-e5775606 gIcon"></text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-e5775606 account">
+      <view class="_view data-v-e5775606 btn mgt20 btn-switch"> 切换账号 </view>
+      <view class="_view data-v-e5775606 btn mgt40"> 退出登录 </view>
+    </view>
+  </view>
+</template>

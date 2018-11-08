@@ -1,0 +1,35 @@
+<template name="58137f5b">
+  <view class="_view data-v-bdaf5aa4 page">
+    <view class="_view data-v-bdaf5aa4 header-box">
+      <view class="_view data-v-bdaf5aa4 diff-header">
+        <view class="_view data-v-bdaf5aa4 header-left"></view>
+        <view class="_view data-v-bdaf5aa4 header-content"> 我的管理 </view>
+        <view class="_view data-v-bdaf5aa4 header-right">
+          <text class="_text data-v-bdaf5aa4 icon"></text>
+        </view>
+      </view>
+      <view class="_view data-v-bdaf5aa4 banner">
+        <image src="{{user}}" class="_image data-v-bdaf5aa4"></image>
+        <view wx:if="{{false}}" class="_view data-v-bdaf5aa4 user-info">
+          <text class="_text data-v-bdaf5aa4">李志强</text>
+          <text class="_text data-v-bdaf5aa4 banner-desc">职务：消防一队组长</text>
+        </view>
+        <view wx:else class="_view data-v-bdaf5aa4 user-info">
+          <view class="_view data-v-bdaf5aa4 loginbtn" bindtap="handleProxy" data-eventid="{{'lEX-0'}}" data-comkey="{{$k}}">立即登录</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-bdaf5aa4 list">
+      <view class="_view data-v-bdaf5aa4 item" bindtap="handleProxy" data-eventid="{{'qbT-1'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-bdaf5aa4 gIcon mgl30 mgr20"></text>
+        <view class="_view data-v-bdaf5aa4 item-name">用户信息</view>
+        <text class="_text data-v-bdaf5aa4 gIcon mgr30"></text>
+      </view>
+      <view class="_view data-v-bdaf5aa4 item" bindtap="handleProxy" data-eventid="{{'aXr-2'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-bdaf5aa4 gIcon mgl30 mgr20"></text>
+        <view class="_view data-v-bdaf5aa4 item-name">行政管理</view>
+        <text class="_text data-v-bdaf5aa4 gIcon mgr30"></text>
+      </view>
+    </view>
+  </view>
+</template>

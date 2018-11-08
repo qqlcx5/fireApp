@@ -1,0 +1,113 @@
+<template>
+	<view class="page">
+		<view class="header">
+			<view class="header-left"></view>
+			<view class="header-content">
+				日常管理
+			</view>
+			<view class="header-right"></view>
+		</view>
+		<view class="banner">
+			<image src="../../static/partyBanner.jpg" />
+		</view>
+		<view class="list">
+			<view class="item" @tap="ways('')">
+				<image src="../../static/daily1.png" />
+				<text class="item-name">早操</text>
+			</view>
+			<view class="item" @tap="ways('')">
+				<image src="../../static/daily2.png" />
+				<text class="item-name">安全管理</text>
+			</view>
+			<view class="item" @tap="ways('')">
+				<image src="../../static/daily3.png" />
+				<text class="item-name">验菜</text>
+			</view>
+			<view class="item" @tap="ways('')">
+				<image src="../../static/daily4.png" />
+				<text class="item-name">谈心制度</text>
+			</view>
+			<view class="item">
+				<image class="imglogo" src="../../static/daily4.png" />
+			</view>
+			<view class="item" @tap="ways('')">
+				<image src="../../static/daily5.png" />
+				<text class="item-name">学习经验</text>
+			</view>
+			<view class="item" @tap="ways('')">
+				<image src="../../static/daily6.png" />
+				<text class="item-name">行政会议</text>
+			</view>
+			<view class="item" @tap="ways('')">
+				<image src="../../static/daily7.png" />
+				<text class="item-name">人员在位情况</text>
+			</view>
+			<view class="item" @tap="ways('')">
+				<image src="../../static/daily8.png" />
+				<text class="item-name">警容风纪检查</text>
+			</view>
+		</view>
+	</view>
+
+</template>
+<script>
+	export default {
+		data() {
+			return {}
+		}
+	}
+</script>
+<style>
+	.banner {
+		height: 390px;
+		width: 750px;
+		padding: 30px;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+
+	.banner image {
+		width: 100%;
+		height: 100%;
+		border-radius: 12px;
+	}
+
+	.list {
+		min-height: 100px;
+		width: 720px;
+		/* margin: 30px 0 0 30px; */
+		overflow: hidden;
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 30px;
+	}
+
+	.item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		margin: 0 30px 30px 0;
+		width: 210px;
+		height: 210px;
+		background-color: #ffffff;
+		border-radius: 6px;
+	}
+
+	.item image {
+		width: 75px;
+		height: 75px;
+		border-radius: 12px;
+	}
+
+	.item-name {
+		margin-top: 10px;
+		font-size: 28px;
+		color: #666666;
+	}
+/* 中间logo */
+	.item .imglogo {
+		width: 210px;
+		height: 210px;
+	}
+</style>

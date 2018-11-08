@@ -1,0 +1,17 @@
+<import src="/components/slots" />
+<template name="1a7c8a9b">
+  <view class="_view data-v-7d9a1d56 header">
+    <template name="a"></template>
+    <template name="b"></template>
+    <template name="default"></template>
+    <template data="{{...$root['0'], ...$root[$k], $root}}" is="{{$slota || 'a'}}"></template>
+    <view class="_view data-v-7d9a1d56 header-left">
+      <text class="_text data-v-7d9a1d56 iconfont icon-xiaoxi"></text>
+    </view>
+    <view class="_view data-v-7d9a1d56 header-content"> {{title}} </view>
+    <template data="{{...$root['0'], ...$root[$k], $root}}" is="{{$slotb || 'b'}}"></template>
+    <view class="_view data-v-7d9a1d56 header-right">
+      <template data="{{...$root['0'], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template>
+    </view>
+  </view>
+</template>

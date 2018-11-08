@@ -1,0 +1,29 @@
+<template name="339c14a0">
+  <view class="_view data-v-0c7c827a page">
+    <view class="_view data-v-0c7c827a header">
+      <view class="_view data-v-0c7c827a header-left" bindtap="handleProxy" data-eventid="{{'I1O-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-0c7c827a icon"></text>
+      </view>
+      <view class="_view data-v-0c7c827a header-content"> 训练计划 </view>
+      <view class="_view data-v-0c7c827a header-right">
+        <text class="_text data-v-0c7c827a icon"></text>
+      </view>
+    </view>
+    <view class="_view data-v-0c7c827a tab-title">
+      <view class="_view data-v-0c7c827a tab select">周课表</view>
+      <view class="_view data-v-0c7c827a tab">月训练计划</view>
+    </view>
+    <view class="_view data-v-0c7c827a list">
+      <view class="_view data-v-0c7c827a item">
+        <text class="_text data-v-0c7c827a item-name">10月22日—10月29日 周课表</text>
+        <text class="_text data-v-0c7c827a item-desc">详情</text>
+        <text class="_text data-v-0c7c827a gIcon"></text>
+      </view>
+      <view class="_view data-v-0c7c827a item">
+        <text class="_text data-v-0c7c827a item-name">10月22日—10月29日 周课表</text>
+        <text class="_text data-v-0c7c827a item-desc">详情</text>
+        <text class="_text data-v-0c7c827a gIcon select"></text>
+      </view>
+    </view>
+  </view>
+</template>

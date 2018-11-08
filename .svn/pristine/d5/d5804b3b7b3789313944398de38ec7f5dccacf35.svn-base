@@ -1,0 +1,39 @@
+<template name="7abca94c"><view class="_view data-v-5c2c1842 page"><view class="_view data-v-5c2c1842 header"><view class="_view data-v-5c2c1842 header-left" bindtap="handleProxy" data-eventid="{{'znP-0'}}" data-comkey="{{$k}}"><text class="_text data-v-5c2c1842 icon"></text></view> <view class="_view data-v-5c2c1842 header-content">
+      岗哨
+    </view> <view class="_view data-v-5c2c1842 header-right"><text class="_text data-v-5c2c1842 icon"></text></view></view> <view class="_view data-v-5c2c1842 tab-title"><view class="_view data-v-5c2c1842 tab select">课表安排</view> <view class="_view data-v-5c2c1842 tab">访客签到</view></view> <view class="_view data-v-5c2c1842 week-box"><view class="_view data-v-5c2c1842 week-left"><view class="_div data-v-5c2c1842 week-left-item select">星期一</view> <view class="_div data-v-5c2c1842 week-left-item">星期二</view> <view class="_div data-v-5c2c1842 week-left-item">星期三</view> <view class="_div data-v-5c2c1842 week-left-item">星期四</view> <view class="_div data-v-5c2c1842 week-left-item">星期五</view> <view class="_div data-v-5c2c1842 week-left-item">星期六</view> <view class="_div data-v-5c2c1842 week-left-item">星期日</view></view> <view class="_view data-v-5c2c1842 week-right"><view class="_div data-v-5c2c1842 week-right-time"><view class="_div data-v-5c2c1842 week-right-time-top">
+          2018-10-20
+        </view> <view class="_div data-v-5c2c1842 week-right-time-bottom">
+          08:00-16:00
+        </view></view> <view class="_div data-v-5c2c1842 week-right-time"><view class="_div data-v-5c2c1842 week-right-time-top">
+          2018-10-20
+        </view> <view class="_div data-v-5c2c1842 week-right-time-bottom">
+          08:00-16:00
+        </view></view> <view class="_div data-v-5c2c1842 week-right-time"><view class="_div data-v-5c2c1842 week-right-time-top">
+          2018-10-20
+        </view> <view class="_div data-v-5c2c1842 week-right-time-bottom">
+          08:00-16:00
+        </view></view> <view class="_div data-v-5c2c1842 week-right-item">
+        王天宝
+      </view> <view class="_div data-v-5c2c1842 week-right-item">
+        李志强
+      </view> <view class="_div data-v-5c2c1842 week-right-item">
+        陈钦
+      </view> <view class="_div data-v-5c2c1842 week-right-item">
+        李志强
+      </view> <view class="_div data-v-5c2c1842 week-right-item">
+        李国人
+      </view> <view class="_div data-v-5c2c1842 week-right-item">
+        张茆
+      </view> <view class="_div data-v-5c2c1842 week-right-item">
+        周镇
+      </view> <view class="_div data-v-5c2c1842 week-right-item">
+        吴左右
+      </view> <view class="_div data-v-5c2c1842 week-right-item">
+        周凯
+      </view> <view class="_div data-v-5c2c1842 week-right-item">
+        李志强
+      </view> <view class="_div data-v-5c2c1842 week-right-item">
+        纪时
+      </view> <view class="_div data-v-5c2c1842 week-right-item">
+        李志强
+      </view></view></view></view></template>

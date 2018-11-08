@@ -1,0 +1,1 @@
+<import src="/pages/train/trainchakan.vue.wxml" /><template is="41b7f20f" data="{{ ...$root['0'], $root }}"/>

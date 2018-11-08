@@ -1,0 +1,16 @@
+<template name="a64bfd3c">
+  <view class="_view data-v-12cca06f page">
+    <view class="_view data-v-12cca06f header">
+      <view class="_view data-v-12cca06f header-left" bindtap="handleProxy" data-eventid="{{'iN8-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-12cca06f icon"></text>
+      </view>
+      <view class="_view data-v-12cca06f header-content"> 检查列表 </view>
+      <view class="_view data-v-12cca06f header-right">
+        <text class="_text data-v-12cca06f icon"></text>
+      </view>
+    </view>
+    <view class="_view data-v-12cca06f header-box">
+      <image src="../../static/jigoushezhi.png" class="_image data-v-12cca06f"></image>
+    </view>
+  </view>
+</template>

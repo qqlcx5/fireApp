@@ -1,0 +1,53 @@
+<template name="1187f351">
+  <view class="_view data-v-1dbd8844 page">
+    <view class="_view data-v-1dbd8844 header">
+      <view class="_view data-v-1dbd8844 header-left" bindtap="handleProxy" data-eventid="{{'Jvi-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-1dbd8844 icon"></text>
+      </view>
+      <view class="_view data-v-1dbd8844 header-content"> 用户信息 </view>
+      <view class="_view data-v-1dbd8844 header-right">
+        <text class="_text data-v-1dbd8844 icon"></text>
+      </view>
+    </view>
+    <view class="_view data-v-1dbd8844 list">
+      <view class="_view data-v-1dbd8844 item-user">
+        <view class="_view data-v-1dbd8844 item-user-border">
+          <text class="_text data-v-1dbd8844 item-user-name">头像</text>
+          <image src="../../static/user.jpeg" class="_image data-v-1dbd8844 item-user-img"></image>
+          <text class="_text data-v-1dbd8844 gIcon"></text>
+        </view>
+      </view>
+      <view class="_view data-v-1dbd8844 item">
+        <view class="_view data-v-1dbd8844 border">
+          <text class="_text data-v-1dbd8844 item-name">姓名</text>
+          <input class="_input data-v-1dbd8844 item-input" type="text" placeholder="李志强" />
+        </view>
+      </view>
+      <view class="_view data-v-1dbd8844 item">
+        <view class="_view data-v-1dbd8844 border">
+          <picker class="_picker data-v-1dbd8844 picker-item" mode="selector" range="{{array}}" bindchange="handleProxy" data-eventid="{{'5Gt-1'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-1dbd8844">
+              <text class="_text data-v-1dbd8844 picker-name">性别</text>{{array[textValue]}}</view>
+          </picker>
+        </view>
+      </view>
+      <view class="_view data-v-1dbd8844 item">
+        <view class="_view data-v-1dbd8844 border">
+          <picker class="_picker data-v-1dbd8844 picker-item" mode="selector" range="{{array2}}" bindchange="handleProxy" data-eventid="{{'p05-2'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-1dbd8844">
+              <text class="_text data-v-1dbd8844 picker-name">职务</text>{{array2[textValue2]}}</view>
+          </picker>
+        </view>
+      </view>
+      <view class="_view data-v-1dbd8844 item">
+        <view class="_view data-v-1dbd8844 border">
+          <text class="_text data-v-1dbd8844 item-name">手机</text>
+          <input class="_input data-v-1dbd8844 item-input" type="text" placeholder="15965845217" />
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-1dbd8844 account">
+      <view class="_view data-v-1dbd8844 btn mgt40"> 保存 </view>
+    </view>
+  </view>
+</template>

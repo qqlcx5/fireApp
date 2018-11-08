@@ -1,0 +1,15 @@
+<template name="b7852f3c"><view class="_view data-v-5804782f page"><view class="_view data-v-5804782f header"><view class="_view data-v-5804782f header-left" bindtap="handleProxy" data-eventid="{{'nih-0'}}" data-comkey="{{$k}}"><text class="_text data-v-5804782f icon"></text></view> <view class="_view data-v-5804782f header-content">
+      组织生活
+    </view> <view class="_view data-v-5804782f header-right"><text class="_text data-v-5804782f icon"></text></view></view> <view class="_view data-v-5804782f list"><view class="_view data-v-5804782f item" bindtap="handleProxy" data-eventid="{{'G5s-1'}}" data-comkey="{{$k}}"><image src="../../static/zuzhishenghuo1.png" mode class="_image data-v-5804782f"></image>
+      党小组会
+    </view> <view class="_view data-v-5804782f item" bindtap="handleProxy" data-eventid="{{'sar-2'}}" data-comkey="{{$k}}"><image src="../../static/zuzhishenghuo2.png" mode class="_image data-v-5804782f"></image>
+      党日制度
+    </view> <view class="_view data-v-5804782f item" bindtap="handleProxy" data-eventid="{{'qZ0-3'}}" data-comkey="{{$k}}"><image src="../../static/zuzhishenghuo3.png" mode class="_image data-v-5804782f"></image>
+      党课制度
+    </view> <view class="_view data-v-5804782f item" bindtap="handleProxy" data-eventid="{{'iP6-4'}}" data-comkey="{{$k}}"><image src="../../static/zuzhishenghuo4.png" mode class="_image data-v-5804782f"></image>
+      党员汇报制度
+    </view> <view class="_view data-v-5804782f item" bindtap="handleProxy" data-eventid="{{'837-5'}}" data-comkey="{{$k}}"><image src="../../static/zuzhishenghuo5.png" mode class="_image data-v-5804782f"></image>
+      支委会
+    </view> <view class="_view data-v-5804782f item" bindtap="handleProxy" data-eventid="{{'Xq2-6'}}" data-comkey="{{$k}}"><image src="../../static/zuzhishenghuo6.png" mode class="_image data-v-5804782f"></image>
+      民主评议党员制度
+    </view></view></view></template>

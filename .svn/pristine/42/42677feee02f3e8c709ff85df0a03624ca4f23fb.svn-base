@@ -1,0 +1,15 @@
+<template name="340f6a8b">
+  <view class="_view data-v-cbfbecd0 page">
+    <view class="_view data-v-cbfbecd0 header">
+      <view class="_view data-v-cbfbecd0 header-left" bindtap="handleProxy" data-eventid="{{'tfq-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-cbfbecd0 icon"></text>
+      </view>
+      <view class="_view data-v-cbfbecd0 header-content"> 添加常用语 </view>
+      <view class="_view data-v-cbfbecd0 header-right"></view>
+    </view>
+    <view class="_view data-v-cbfbecd0">
+      <textarea class="_textarea data-v-cbfbecd0 text-area" />
+    </view>
+    <view class="_view data-v-cbfbecd0 btn mgt40">添加</view>
+  </view>
+</template>

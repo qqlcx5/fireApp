@@ -1,0 +1,75 @@
+
+.page {
+  background-color: #fff;
+  width: 100%;
+  min-height: 100vh;
+}
+.banner {
+  height: 375rpx;
+  width: 750rpx;
+  overflow: hidden;
+}
+.banner image {
+  width: 100%;
+  height: 100%;
+}
+.notify {
+  height: 100rpx;
+  width: 750rpx;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 28rpx;
+  color: #666666;
+  border-bottom: 2rpx solid #e9e9e9;
+}
+.notifyIcon {
+  color: #d0021b;
+}
+.list {
+  min-height: 100rpx;
+  width: 750rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.item {
+  width: 186rpx;
+  height: 186rpx;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border-right: 2rpx solid #e9e9e9;
+  border-bottom: 2rpx solid #e9e9e9;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+.item:nth-child(4n) {
+  border-right: none;
+}
+.item image {
+  width: 75rpx;
+  height: 75rpx;
+}
+.item-name {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: #666666;
+}

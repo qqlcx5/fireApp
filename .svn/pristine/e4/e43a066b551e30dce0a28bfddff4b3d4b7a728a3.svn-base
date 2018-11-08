@@ -1,0 +1,229 @@
+<template>
+	<view>
+		<!-- <form>
+						<view class="page-section">
+							<view class="uni-list list-pd">
+								<view class="uni-list-cell cell-pd">
+									<view class="uni-uploader">
+										<view class="uni-uploader-head">
+											<view class="uni-uploader-title" @tap="govo">点击可预览选好的图片</view>
+											<view class="uni-uploader-info">{{imageList.length}}/3</view>
+										</view>
+										<view class="uni-uploader-body">
+											<view class="uni-uploader__files">
+												<block v-for="(image,index) in imageList" :key="index">
+													<view class="uni-uploader__file">
+														<image class="uni-uploader__img" :src="image" :data-src="image" @tap="previewImage"></image>
+														<view class="close" @tap="delImage(index)">
+															<image src="../static/close.png"></image>
+														</view>
+													</view>
+												</block>
+											</view>
+											<view class="uni-uploader__input-box">
+												<view class="uni-uploader__input" @tap="chooseImage"></view>
+											</view>
+										</view>
+									</view>
+								</view>
+							</view>
+		
+						</view>
+					</form> -->
+		<form>
+			<view class="imgList">
+				<block v-for="(image,index) in imageList" :key="index">
+				<view class="imgItem">
+					<image class="imgsize" :src="image" :data-src="image" @tap="previewImage"></image>
+					<block>
+						<image class="close" src="../../static/close.png"></image>
+					</block>
+				</view>
+				</block>
+<!-- 				<view class="imgItem">
+					<image class="imgsize" src="../../static/dangjian.jpg" mode=""></image>
+				</view> -->
+				<view class="imgItem">
+					<text class="gIcon addIcon" @tap="chooseImage">
+						&#xe62a;
+					</text>
+				</view>
+			</view>
+			<view class="remarks">
+				<view class="remarks-title">
+					备注消息
+				</view>
+				<view class="remarks-content">
+					<text decode="true">
+						&emsp;&emsp;战备教育是为作好战争准备而进行的思想教育。中国人民解放军经常性的思想政治工作内容。任务是使官兵认识战争的性质、敌人的反动本质，树立无产阶级战争观，坚定战斗队的思想，做到一声令下立即出动，完成保卫祖国的职责。
+					</text>
+				</view>
+			</view>
+
+
+
+		</form>
+	</view>
+</template>
+<script>
+	// import common from '../common/common.js';
+	// 	import {
+	// 		mapState
+	// 	} from 'vuex';
+
+	export default {
+		data() {
+			return {
+				imageList: [],
+				//imageListStr:""
+
+			}
+		},
+		onUnload() {
+			this.imageList = [],
+				this.imageListStr = ""
+		},
+		// 		computed: {
+		// 			...mapState(['user']),
+		// 		},
+		methods: {
+			chooseImage: async function() {
+					let imgcount = 3;
+					let that = this;
+					if (this.imageList.length == 3) {
+						let isContinue = await this.isFullImg();
+						if (!isContinue) {
+							return false;
+						}
+					}
+					uni.chooseImage({
+						count: imgcount - this.imageList.length,
+						success: (res) => {
+							this.imageList = this.imageList.concat(res.tempFilePaths);
+							//	console.log(JSON.stringify(res))
+							res.tempFilePaths.forEach(function(value, key) {
+								that.uploadImage(value);
+							})
+						}
+					})
+				},
+				delImage: function(e) {
+					this.imageList.splice(e, 1);
+				},
+				isFullImg: function() {
+					return new Promise((res) => {
+						uni.showModal({
+							content: "最多只能选择3张图片,是否清空现有图片？",
+							success: (e) => {
+								if (e.confirm) {
+									this.imageList = [];
+									res(true);
+								} else {
+									res(false)
+								}
+							},
+							fail: () => {
+								res(false)
+							}
+						})
+					})
+				},
+				uploadImage: function(e) {
+
+					let that = this;
+					const uploadTask = uni.uploadFile({
+						url: common.hosturl + "Upload/uploadfile.html",
+						filePath: e,
+						name: "file",
+						formData: {
+							token: this.user.user.token
+						},
+						success: (uploadFileRes) => {
+							console.log(JSON.stringify(uploadFileRes));
+						},
+					});
+
+					/* uploadTask.onProgressUpdate((res) => {
+						console.log('上传进度' + res.progress);
+						console.log('已经上传的数据长度' + res.totalBytesSent);
+						console.log('预期需要上传的数据总长度' + res.totalBytesExpectedToSend);
+
+					}); */
+				},
+				previewImage: function(e) {
+					var current = e.target.dataset.src
+					uni.previewImage({
+						current: current,
+						urls: this.imageList
+					})
+				}
+		}
+	}
+</script>
+<style>
+	.imgList {
+
+		display: flex;
+		min-height: 260px;
+		min-width: 750px;
+		flex-wrap: wrap;
+		padding: 37.5px 0 0 37.5px;
+		box-sizing: border-box;
+		background-color: #FFFFFF;
+	}
+
+	.imgItem {
+		padding: 0 37.5px 37.5px 0;
+		position: relative;
+		width: 237.5px;
+		height: 237.5px;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.imgsize {
+		width: 200px;
+		height: 200px;
+		background-color: #d8d8d8;
+		border-radius: 6px;
+	}
+	/* 添加图片的样式 */
+.addIcon{
+	font-size: 150px;
+}
+	.close {
+		position: absolute;
+		top: -25px;
+		right: 10px;
+		width: 50px;
+		height: 50px;
+	}
+
+	.remarks-title {
+		height: 107px;
+		line-height: 107px;
+		font-weight: bold;
+		width: 750px;
+		font-size: 32px;
+		color: #666666;
+		padding-left: 30px;
+		box-sizing: border-box;
+	}
+
+
+	.remarks-content {
+		min-height: 80px;
+		width: 750px;
+		background-color: #FFFFFF;
+		padding: 30px;
+		box-sizing: border-box;
+	}
+
+	.remarks-content text {
+		font-size: 28px;
+		line-height: 44px;
+		color: #666666;
+	}
+</style>

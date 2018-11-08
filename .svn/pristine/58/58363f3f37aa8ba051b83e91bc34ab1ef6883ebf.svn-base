@@ -1,0 +1,106 @@
+
+.header-box {
+  height: 420rpx;
+  width: 750rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background-image: -webkit-linear-gradient(left, #e75551 0%, #c43164 100%);
+  background-image: linear-gradient(90deg, #e75551 0%, #c43164 100%);
+  box-shadow: 0 4rpx 8rpx 0 #e6e6e6;
+}
+.diff-header {
+  height: 128rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding-top: 40rpx;
+  box-sizing: border-box;
+  padding-top: 20rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.banner {
+  height: 292rpx;
+  width: 750rpx;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  color: #fff;
+}
+.banner image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin: 30rpx 0;
+}
+.user-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.banner-desc {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+}
+.loginbtn {
+  width: 228rpx;
+  height: 68rpx;
+  background-color: #ffffff;
+  border-radius: 44rpx;
+  text-align: center;
+  line-height: 68rpx;
+  font-size: 32rpx;
+  color: #e45252;
+}
+.list {
+  min-height: 110rpx;
+  width: 750rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.item {
+  width: 750rpx;
+  height: 110rpx;
+  border-bottom: 2rpx solid #e6e6e6;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 32rpx;
+  color: #6c6c6c;
+}
+.item-name {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}

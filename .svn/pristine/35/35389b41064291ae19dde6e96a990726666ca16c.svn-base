@@ -1,0 +1,4 @@
+<import src="/components/headerTop.vue.wxml" />
+<template name="data-v-55c042a4-default-ZFx-0">
+  <text class="_text data-v-55c042a4 iconfont icon-xiaoxi"></text>
+</template>

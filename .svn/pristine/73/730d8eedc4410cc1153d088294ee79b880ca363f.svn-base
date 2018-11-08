@@ -1,0 +1,47 @@
+<template name="33ff9884">
+  <view class="_view data-v-2cb7b7d1 page">
+    <view class="_view data-v-2cb7b7d1 header">
+      <view class="_view data-v-2cb7b7d1 header-left" bindtap="handleProxy" data-eventid="{{'hFU-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-2cb7b7d1 icon"></text>
+      </view>
+      <view class="_view data-v-2cb7b7d1 header-content"> 战备检查 </view>
+      <view class="_view data-v-2cb7b7d1 header-right">
+        <text class="_text data-v-2cb7b7d1">添加</text>
+      </view>
+    </view>
+    <view class="_view data-v-2cb7b7d1 list">
+      <view class="_view data-v-2cb7b7d1">
+        <view class="_view data-v-2cb7b7d1 item-time"> 2018-11-01 </view>
+        <view class="_view data-v-2cb7b7d1 item">
+          <view class="_view data-v-2cb7b7d1 item-left">
+            <text class="_text data-v-2cb7b7d1">任务完成情况确认</text>
+            <text class="_text data-v-2cb7b7d1">照片3张、1个视频</text>
+          </view>
+          <view class="_view data-v-2cb7b7d1 item-right">
+            <text class="_text data-v-2cb7b7d1 state-color">待推送</text>
+            <view class="_view data-v-2cb7b7d1 btn-box mgt20">
+              <view class="_view data-v-2cb7b7d1 mbtn btn-danger mgr20" bindtap="handleProxy" data-eventid="{{'7Qb-1'}}" data-comkey="{{$k}}">查看</view>
+              <view class="_view data-v-2cb7b7d1 mbtn btn-info" bindtap="handleProxy" data-eventid="{{'cbU-2'}}" data-comkey="{{$k}}">推送</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-2cb7b7d1">
+        <view class="_view data-v-2cb7b7d1 item-time"> 2018-11-01 </view>
+        <view class="_view data-v-2cb7b7d1 item">
+          <view class="_view data-v-2cb7b7d1 item-left">
+            <text class="_text data-v-2cb7b7d1">任务完成情况确认</text>
+            <text class="_text data-v-2cb7b7d1">照片3张、1个视频</text>
+          </view>
+          <view class="_view data-v-2cb7b7d1 item-right">
+            <text class="_text data-v-2cb7b7d1 state-color push-color">已推送</text>
+            <view class="_view data-v-2cb7b7d1 btn-box mgt20">
+              <view class="_view data-v-2cb7b7d1 mbtn btn-danger mgr20">查看</view>
+              <view class="_view data-v-2cb7b7d1 mbtn btn-info">推送</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

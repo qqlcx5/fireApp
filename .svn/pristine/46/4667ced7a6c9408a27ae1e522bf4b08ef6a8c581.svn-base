@@ -1,0 +1,83 @@
+<template name="5e9d0a88">
+  <view class="_view data-v-2f1ad409 page">
+    <view class="_view data-v-2f1ad409 header">
+      <view class="_view data-v-2f1ad409 header-left" bindtap="handleProxy" data-eventid="{{'q83-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-2f1ad409 icon"></text>
+      </view>
+      <view class="_view data-v-2f1ad409 header-content"> 请假 </view>
+      <view class="_view data-v-2f1ad409 header-right">
+        <text class="_text data-v-2f1ad409 icon"></text>
+      </view>
+    </view>
+    <view class="_view data-v-2f1ad409">
+      <view class="_view data-v-2f1ad409 list">
+        <view class="_view data-v-2f1ad409 item">
+          <view class="_view data-v-2f1ad409 border">
+            <picker class="_picker data-v-2f1ad409 picker-item" mode="selector" range="{{array}}" bindchange="handleProxy" data-eventid="{{'o44-1'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-2f1ad409">
+                <text class="_text data-v-2f1ad409 picker-name">请假类型</text>{{array[textValue]}}</view>
+            </picker>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-2f1ad409 list">
+        <view class="_view data-v-2f1ad409 item">
+          <view class="_view data-v-2f1ad409 border">
+            <text class="_text data-v-2f1ad409">请假时间</text>
+          </view>
+        </view>
+        <view class="_view data-v-2f1ad409 item">
+          <view class="_view data-v-2f1ad409 border">
+            <picker class="_picker data-v-2f1ad409 picker-item" mode="date" start="2018-01-01" end="2019-01-01" bindchange="handleProxy" data-eventid="{{'CgT-2'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-2f1ad409">
+                <text class="_text data-v-2f1ad409 picker-name">开始日期</text>{{startdate}}</view>
+            </picker>
+          </view>
+        </view>
+        <view class="_view data-v-2f1ad409 item">
+          <view class="_view data-v-2f1ad409 border">
+            <picker class="_picker data-v-2f1ad409 picker-item" mode="time" start="08:00" end="20:00" bindchange="handleProxy" data-eventid="{{'U0c-3'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-2f1ad409">
+                <text class="_text data-v-2f1ad409 picker-name">开始时间</text>{{starttime}}</view>
+            </picker>
+          </view>
+        </view>
+        <view class="_view data-v-2f1ad409 item">
+          <view class="_view data-v-2f1ad409 border">
+            <picker class="_picker data-v-2f1ad409 picker-item" mode="date" start="2018-01-01" end="2019-01-01" bindchange="handleProxy" data-eventid="{{'Jne-4'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-2f1ad409">
+                <text class="_text data-v-2f1ad409 picker-name">结束日期</text>{{enddate}}</view>
+            </picker>
+          </view>
+        </view>
+        <view class="_view data-v-2f1ad409 item">
+          <view class="_view data-v-2f1ad409 border">
+            <picker class="_picker data-v-2f1ad409 picker-item" mode="time" start="08:00" end="20:00" bindchange="handleProxy" data-eventid="{{'pmR-5'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-2f1ad409">
+                <text class="_text data-v-2f1ad409 picker-name">结束时间</text>{{endtime}}</view>
+            </picker>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-2f1ad409 list">
+        <view class="_view data-v-2f1ad409 item">
+          <view class="_view data-v-2f1ad409 border">
+            <text class="_text data-v-2f1ad409">请假事由</text>
+          </view>
+        </view>
+        <view class="_view data-v-2f1ad409 item-textarea">
+          <textarea placeholder="请输入公差事由" maxlength="200" class="_textarea data-v-2f1ad409" />
+        </view>
+      </view>
+      <view class="_view data-v-2f1ad409 list">
+        <view class="_view data-v-2f1ad409 picture">
+          <text class="_text data-v-2f1ad409 picture-name">图片</text>
+          <text class="_text data-v-2f1ad409 addIcon"></text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-2f1ad409 submit">
+      <view class="_view data-v-2f1ad409 btn"> 提交 </view>
+    </view>
+  </view>
+</template>

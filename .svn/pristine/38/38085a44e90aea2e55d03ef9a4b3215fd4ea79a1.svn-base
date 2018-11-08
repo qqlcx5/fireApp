@@ -1,0 +1,23 @@
+<template name="232966d1">
+  <view class="_view data-v-6c3e3a24 page">
+    <view class="_view data-v-6c3e3a24 header">
+      <view class="_view data-v-6c3e3a24 header-left" bindtap="handleProxy" data-eventid="{{'mdE-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-6c3e3a24 icon"></text>
+      </view>
+      <view class="_view data-v-6c3e3a24 header-content"> 包河消防 </view>
+      <view class="_view data-v-6c3e3a24 header-right">
+        <text class="_text data-v-6c3e3a24 icon"></text>
+      </view>
+    </view>
+    <view class="_view data-v-6c3e3a24 list mgt20">
+      <view class="_view data-v-6c3e3a24 item">
+        <image src="../../static/zhiqin1.png" class="_image data-v-6c3e3a24 car-img"></image>
+        <view class="_view data-v-6c3e3a24 item-name">消防车辆管理</view>
+      </view>
+      <view class="_view data-v-6c3e3a24 item" bindtap="handleProxy" data-eventid="{{'URS-1'}}" data-comkey="{{$k}}">
+        <image src="../../static/zhiqin2.png" class="_image data-v-6c3e3a24 gangshao-img"></image>
+        <view class="_view data-v-6c3e3a24 item-name">岗哨</view>
+      </view>
+    </view>
+  </view>
+</template>

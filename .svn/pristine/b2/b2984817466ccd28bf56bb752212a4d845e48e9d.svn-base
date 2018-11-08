@@ -1,0 +1,39 @@
+<import src="/components/headerTop.vue.wxml" />
+<template name="e7e9e94a">
+  <view class="_view data-v-55c042a4 page">
+    <template data="{{...$root['0'], ...$root[$kk+'ZFx-0'],$root, $slotdefault:'data-v-55c042a4-default-ZFx-0'}}" is="1a7c8a9b"></template>
+    <view class="_view data-v-55c042a4 banner">
+      <image src="../../static/banner.jpeg" class="_image data-v-55c042a4"></image>
+    </view>
+    <view class="_view data-v-55c042a4 notify">
+      <text class="_text data-v-55c042a4 icon notifyIcon mgl20 mgr20"></text>
+      <text class="_text data-v-55c042a4">第四届全国119消防奖拟表彰对象公示</text>
+    </view>
+    <view class="_view data-v-55c042a4 list mgt20">
+      <view class="_view data-v-55c042a4 item" bindtap="handleProxy" data-eventid="{{'ela-0'}}" data-comkey="{{$k}}">
+        <image src="../../static/basics1.png" class="_image data-v-55c042a4"></image>
+        <view class="_view data-v-55c042a4 item-name mgl20">执 勤</view>
+      </view>
+      <view class="_view data-v-55c042a4 item" bindtap="handleProxy" data-eventid="{{'6P5-1'}}" data-comkey="{{$k}}">
+        <image src="../../static/basics2.png" class="_image data-v-55c042a4"></image>
+        <view class="_view data-v-55c042a4 item-name mgl20">考 勤</view>
+      </view>
+      <view class="_view data-v-55c042a4 item" bindtap="handleProxy" data-eventid="{{'UnB-2'}}" data-comkey="{{$k}}">
+        <image src="../../static/basics3.png" class="_image data-v-55c042a4"></image>
+        <view class="_view data-v-55c042a4 item-name mgl20">卫生区检</view>
+      </view>
+      <view class="_view data-v-55c042a4 item" bindtap="handleProxy" data-eventid="{{'YbR-3'}}" data-comkey="{{$k}}">
+        <image src="../../static/basics4.png" class="_image data-v-55c042a4"></image>
+        <view class="_view data-v-55c042a4 item-name mgl20">请假外出</view>
+      </view>
+      <view class="_view data-v-55c042a4 item" bindtap="handleProxy" data-eventid="{{'si5-4'}}" data-comkey="{{$k}}">
+        <image src="../../static/basics5.png" class="_image data-v-55c042a4"></image>
+        <view class="_view data-v-55c042a4 item-name mgl20">装备检查</view>
+      </view>
+      <view class="_view data-v-55c042a4 item" bindtap="handleProxy" data-eventid="{{'Nd9-5'}}" data-comkey="{{$k}}">
+        <image src="../../static/basics6.png" class="_image data-v-55c042a4"></image>
+        <view class="_view data-v-55c042a4 item-name mgl20">训练计划</view>
+      </view>
+    </view>
+  </view>
+</template>

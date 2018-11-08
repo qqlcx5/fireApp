@@ -1,0 +1,97 @@
+<template name="78738e68">
+  <view class="_view data-v-d8fc8816 page">
+    <view class="_view data-v-d8fc8816 header">
+      <view class="_view data-v-d8fc8816 header-left" bindtap="handleProxy" data-eventid="{{'Kq2-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-d8fc8816 icon"></text>
+      </view>
+      <view class="_view data-v-d8fc8816 header-content"> 推送 </view>
+      <view class="_view data-v-d8fc8816 header-right">
+        <text class="_text data-v-d8fc8816">添加</text>
+      </view>
+    </view>
+    <view class="_view data-v-d8fc8816 tab-title">
+      <view class="_view data-v-d8fc8816 tab  {{[!showVideo ? 'select' : '']}}" bindtap="handleProxy" data-eventid="{{'QE3-1'}}" data-comkey="{{$k}}">战备训练</view>
+      <view class="_view data-v-d8fc8816 tab  {{[showVideo ? 'select' : '']}}" bindtap="handleProxy" data-eventid="{{'7Zx-2'}}" data-comkey="{{$k}}">日常管理</view>
+    </view>
+    <view wx:if="{{!showVideo}}" class="_view data-v-d8fc8816">
+      <view class="_view data-v-d8fc8816 list">
+        <view class="_view data-v-d8fc8816 item">
+          <picker class="_picker data-v-d8fc8816 select-item" mode="selector" range="{{textList}}" bindchange="handleProxy" data-eventid="{{'SNq-3'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d8fc8816">重复：{{textList[textValue]}}</view>
+          </picker>
+          <picker class="_picker data-v-d8fc8816 time-item" mode="time" start="0:00" end="23:59" bindchange="handleProxy" data-eventid="{{'Wmq-4'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d8fc8816">{{time}}</view>
+          </picker>
+          <view class="_view data-v-d8fc8816 remarks">
+            <text class="_text data-v-d8fc8816">{{remarks}}</text>
+            <switch class="_switch data-v-d8fc8816" />
+          </view>
+        </view>
+        <view class="_view data-v-d8fc8816 item">
+          <picker class="_picker data-v-d8fc8816 select-item" mode="selector" range="{{textList}}" bindchange="handleProxy" data-eventid="{{'myd-5'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d8fc8816">重复：{{textList[textValue]}}</view>
+          </picker>
+          <picker class="_picker data-v-d8fc8816 time-item" mode="time" start="0:00" end="23:59" bindchange="handleProxy" data-eventid="{{'NnT-6'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d8fc8816">{{time}}</view>
+          </picker>
+          <view class="_view data-v-d8fc8816 remarks">
+            <text class="_text data-v-d8fc8816">{{remarks}}</text>
+            <switch class="_switch data-v-d8fc8816" />
+          </view>
+        </view>
+        <view class="_view data-v-d8fc8816 item">
+          <picker class="_picker data-v-d8fc8816 select-item" mode="selector" range="{{textList}}" bindchange="handleProxy" data-eventid="{{'Bgd-7'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d8fc8816">重复：{{textList[textValue]}}</view>
+          </picker>
+          <picker class="_picker data-v-d8fc8816 time-item" mode="time" start="0:00" end="23:59" bindchange="handleProxy" data-eventid="{{'z6q-8'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d8fc8816">{{time}}</view>
+          </picker>
+          <view class="_view data-v-d8fc8816 remarks">
+            <text class="_text data-v-d8fc8816">{{remarks}}</text>
+            <switch class="_switch data-v-d8fc8816" />
+          </view>
+        </view>
+        <view class="_view data-v-d8fc8816 item">
+          <picker class="_picker data-v-d8fc8816 select-item" mode="selector" range="{{textList}}" bindchange="handleProxy" data-eventid="{{'RWg-9'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d8fc8816">重复：{{textList[textValue]}}</view>
+          </picker>
+          <picker class="_picker data-v-d8fc8816 time-item" mode="time" start="0:00" end="23:59" bindchange="handleProxy" data-eventid="{{'Wow-10'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d8fc8816">{{time}}</view>
+          </picker>
+          <view class="_view data-v-d8fc8816 remarks">
+            <text class="_text data-v-d8fc8816">{{remarks}}</text>
+            <switch class="_switch data-v-d8fc8816" />
+          </view>
+        </view>
+      </view>
+    </view>
+    <view wx:else class="_view data-v-d8fc8816">
+      <view class="_view data-v-d8fc8816 list">
+        <view class="_view data-v-d8fc8816 item">
+          <picker class="_picker data-v-d8fc8816 select-item" mode="selector" range="{{textList}}" bindchange="handleProxy" data-eventid="{{'c7F-11'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d8fc8816">重复：{{textList[textValue]}}</view>
+          </picker>
+          <picker class="_picker data-v-d8fc8816 time-item" mode="time" start="0:00" end="23:59" bindchange="handleProxy" data-eventid="{{'B5N-12'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d8fc8816">{{time}}</view>
+          </picker>
+          <view class="_view data-v-d8fc8816 remarks">
+            <text class="_text data-v-d8fc8816">{{remarks}}</text>
+            <switch class="_switch data-v-d8fc8816" />
+          </view>
+        </view>
+        <view class="_view data-v-d8fc8816 item">
+          <picker class="_picker data-v-d8fc8816 select-item" mode="selector" range="{{textList}}" bindchange="handleProxy" data-eventid="{{'hVs-13'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d8fc8816">重复：{{textList[textValue]}}</view>
+          </picker>
+          <picker class="_picker data-v-d8fc8816 time-item" mode="time" start="0:00" end="23:59" bindchange="handleProxy" data-eventid="{{'075-14'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d8fc8816">{{time}}</view>
+          </picker>
+          <view class="_view data-v-d8fc8816 remarks">
+            <text class="_text data-v-d8fc8816">{{remarks}}</text>
+            <switch class="_switch data-v-d8fc8816" />
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

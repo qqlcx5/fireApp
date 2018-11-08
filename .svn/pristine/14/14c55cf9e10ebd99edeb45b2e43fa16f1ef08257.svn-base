@@ -1,0 +1,1 @@
+<import src="/pages/manage/mimaguanli.vue.wxml" /><template is="74ed3c04" data="{{ ...$root['0'], $root }}"/>

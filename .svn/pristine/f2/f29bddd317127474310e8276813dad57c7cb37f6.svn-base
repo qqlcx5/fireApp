@@ -1,0 +1,27 @@
+<import src="/components/editImage.vue.wxml" />
+<import src="/components/editVideo.vue.wxml" />
+<template name="cecb5d62">
+  <view class="_view data-v-4a04d6e2 page">
+    <view class="_view data-v-4a04d6e2 header">
+      <view class="_view data-v-4a04d6e2 header-left" bindtap="handleProxy" data-eventid="{{'bEr-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-4a04d6e2 icon"></text>
+      </view>
+      <view class="_view data-v-4a04d6e2 header-content"> 战备教育 </view>
+      <view class="_view data-v-4a04d6e2 header-right">
+        <text class="_text data-v-4a04d6e2 icon"></text>
+      </view>
+    </view>
+    <view class="_view data-v-4a04d6e2 tab-title">
+      <view class="_view data-v-4a04d6e2 tab-title">
+        <view class="_view data-v-4a04d6e2 tab  {{[!showVideo ? 'select' : '']}}" bindtap="handleProxy" data-eventid="{{'HMs-1'}}" data-comkey="{{$k}}">照片</view>
+        <view class="_view data-v-4a04d6e2 tab  {{[showVideo ? 'select' : '']}}" bindtap="handleProxy" data-eventid="{{'47O-2'}}" data-comkey="{{$k}}">视频</view>
+      </view>
+    </view>
+    <view wx:if="{{!showVideo}}" class="_view data-v-4a04d6e2">
+      <template data="{{...$root['0'], ...$root[$kk+'SFA-0'],$root}}" is="d4e89ff8"></template>
+    </view>
+    <view wx:else class="_view data-v-4a04d6e2">
+      <template data="{{...$root['0'], ...$root[$kk+'12s-1'],$root}}" is="19568b24"></template>
+    </view>
+  </view>
+</template>

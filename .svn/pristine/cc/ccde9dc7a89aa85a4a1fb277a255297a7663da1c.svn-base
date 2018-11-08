@@ -1,0 +1,116 @@
+<template>
+	<view>
+		<form>
+			<view class="imgList">
+				<view class="imgItem imgItemBorder" v-if="!src">
+					
+						<text class="gIcon addIcon" @tap="chooseVideo">
+						&#xe637;
+					</text>
+			
+					
+				</view>
+
+				<view class="imgItem " v-else>
+					<video :src="src" class="video"></video>
+				</view>
+
+			</view>
+			<view class="remarks">
+				<view class="remarks-title">
+					<text>备注消息</text>
+					<text class="gIcon" @tap="isFix=true">&#xe604;</text>
+				</view>
+				<view class="isFix" v-if="isFix">
+					<!-- 事件冒泡 -->
+					<view class="fixmsg">
+						<view class="fix-title" @tap="ways('changyongyu')">添加常用语</view>
+						<view>
+							<!-- v-if="false" -->
+							<block>
+								<view class="fix-item">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</view>
+							</block>
+						</view>
+						<view class="fix-end" @tap="isFix=false">取消</view>
+					</view>
+				</view>
+				<view class="remarks-content">
+					<textarea class="textarea" placeholder="必填（1000字符以内）"></textarea>
+				</view>
+			</view>
+			<view class="mgt40 btn">
+				保存
+			</view>
+		</form>
+	</view>
+
+</template>
+<script>
+	// import common from '../common/common.js';
+	// 	import {
+	// 		mapState
+	// 	} from 'vuex';
+
+	export default {
+		data() {
+			return {
+				isFix:false,
+				src: ''
+			}
+		},
+		onUnload() {
+			this.src = ''
+		},
+		// 		computed: {
+		// 			...mapState(['user']),
+		// 		},
+		methods: {
+			chooseVideo: function() {
+				uni.chooseVideo({
+					success: (res) => {
+						this.src = res.tempFilePath;
+						this.uploadImage(this.src);
+						console.log(this.src);
+					}
+				})
+			},
+			uploadImage: function(e) {
+
+				let that = this;
+				const uploadTask = uni.uploadFile({
+					url: common.hosturl + "Upload/uploadfile.html",
+					filePath: e,
+					name: "file",
+					formData: {
+						token: this.user.user.token
+					},
+					success: (uploadFileRes) => {
+						console.log(JSON.stringify(uploadFileRes));
+						/* self.src = res.tempFilePath;
+
+						uni.saveVideoToPhotosAlbum({
+							filePath: res.tempFilePath,
+							success: function() {
+								console.log('save success');
+							}
+						}); */
+					},
+				});
+
+
+
+				/* uploadTask.onProgressUpdate((res) => {
+									console.log('上传进度' + res.progress);
+									console.log('已经上传的数据长度' + res.totalBytesSent);
+									console.log('预期需要上传的数据总长度' + res.totalBytesExpectedToSend);
+			
+								}); */
+			},
+
+		}
+	}
+</script>
+
+<style>
+
+</style>
