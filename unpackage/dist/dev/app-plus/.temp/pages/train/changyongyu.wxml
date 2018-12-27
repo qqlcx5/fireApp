@@ -1,0 +1,1 @@
+<import src="/pages/train/changyongyu.vue.wxml" /><template is="42dc2a6b" data="{{ ...$root['0'], $root }}"/>

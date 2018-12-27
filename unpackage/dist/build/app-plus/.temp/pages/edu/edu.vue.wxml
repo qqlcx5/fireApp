@@ -1,0 +1,48 @@
+<template name="3fd4554f">
+  <view class="_view data-v-2078215c page">
+    <view class="_view data-v-2078215c header" style="position: fixed;z-index: 10000;">
+      <view class="_view data-v-2078215c header-left"></view>
+      <view class="_view data-v-2078215c header-content"> 思想教育 </view>
+      <view class="_view data-v-2078215c header-right"></view>
+    </view>
+    <view class="_view data-v-2078215c banner" style="margin-top:120rpx;">
+      <swiper autoplay="true" interval="3000" duration="1000" indicator-dots="true" style="height: 390rpx;" class="_swiper data-v-2078215c">
+        <swiper-item wx:key="key" key="{{key}}" wx:for="{{itemList}}" wx:for-index="key" wx:for-item="value" class="_swiper-item data-v-2078215c">
+          <image src="{{baseurl+value.flashurl}}" class="_image data-v-2078215c"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class="_view data-v-2078215c notify" bindtap="handleProxy" data-eventid="{{'Qv6-2'}}" data-comkey="{{$k}}">
+      <text class="_text data-v-2078215c icon notifyIcon mgl20 mgr20" bindtap="handleProxy" data-eventid="{{'C1y-0'}}" data-comkey="{{$k}}"></text>
+      <swiper autoplay="true" interval="2000" duration="1000" vertical="true" style="width:700rpx; height: 100rpx;line-height: 100rpx;" class="_swiper data-v-2078215c">
+        <swiper-item wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'B16-1-'+key}}" data-comkey="{{$k}}" wx:for="{{itemList1}}" wx:for-index="key" wx:for-item="value" class="_swiper-item data-v-2078215c"> {{value.pushcontent}} </swiper-item>
+      </swiper>
+    </view>
+    <view class="_view data-v-2078215c list">
+      <view class="_view data-v-2078215c item" bindtap="handleProxy" data-eventid="{{'sYH-3'}}" data-comkey="{{$k}}">
+        <image src="../../static/task21.png" class="_image data-v-2078215c"></image>
+        <text class="_text data-v-2078215c item-name">政治教育</text>
+      </view>
+      <view class="_view data-v-2078215c item" bindtap="handleProxy" data-eventid="{{'VZw-4'}}" data-comkey="{{$k}}">
+        <image src="../../static/task22.png" class="_image data-v-2078215c"></image>
+        <text class="_text data-v-2078215c item-name">心理健康</text>
+      </view>
+      <view class="_view data-v-2078215c item" bindtap="handleProxy" data-eventid="{{'8eM-5'}}" data-comkey="{{$k}}">
+        <image src="../../static/task23.png" class="_image data-v-2078215c"></image>
+        <text class="_text data-v-2078215c item-name">重点人员管理</text>
+      </view>
+      <view class="_view data-v-2078215c item" bindtap="handleProxy" data-eventid="{{'rNo-6'}}" data-comkey="{{$k}}">
+        <image src="../../static/task24.png" class="_image data-v-2078215c"></image>
+        <text class="_text data-v-2078215c item-name">形势分析</text>
+      </view>
+      <view class="_view data-v-2078215c item" bindtap="handleProxy" data-eventid="{{'MP7-7'}}" data-comkey="{{$k}}">
+        <image src="../../static/task25.png" class="_image data-v-2078215c"></image>
+        <text class="_text data-v-2078215c item-name">工作汇报</text>
+      </view>
+      <view class="_view data-v-2078215c item" bindtap="handleProxy" data-eventid="{{'4Bn-8'}}" data-comkey="{{$k}}">
+        <image src="../../static/task26.png" class="_image data-v-2078215c"></image>
+        <text class="_text data-v-2078215c item-name">谈心交心</text>
+      </view>
+    </view>
+  </view>
+</template>

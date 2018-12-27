@@ -9,49 +9,49 @@
         组织生活
       </view>
       <view class="header-right">
-        <text class="icon">&#xe622;</text>
+        <!-- <text class="icon">&#xe622;</text> -->
       </view>
     </view>
     <view class="list">
       <view class="item"
             @tap="ways('zuzhishenghouinfo1')">
-        <image src="../../static/zuzhishenghuo1.png"
+        <image src="../../static/task27.png"
                mode="" />
         党小组会
       </view>
       <view class="item"
             @tap="ways('zuzhishenghouinfo2')">
-        <image src="../../static/zuzhishenghuo2.png"
+        <image src="../../static/task28.png"
                mode="" />
         支委会
       </view>
       <view class="item"
             @tap="ways('zuzhishenghouinfo3')">
-        <image src="../../static/zuzhishenghuo3.png"
+        <image src="../../static/task29.png"
                mode="" />
         党课
       </view>
       <view class="item"
             @tap="ways('zuzhishenghouinfo4')">
-        <image src="../../static/zuzhishenghuo4.png"
+        <image src="../../static/task30.png"
                mode="" />
         党日
       </view>
       <view class="item"
             @tap="ways('zuzhishenghouinfo5')">
-        <image src="../../static/zuzhishenghuo5.png"
+        <image src="../../static/task31.png"
                mode="" />
         党员思想汇报
       </view>
       <view class="item"
             @tap="ways('zuzhishenghouinfo6')">
-        <image src="../../static/zuzhishenghuo6.png"
+        <image src="../../static/task32.png"
                mode="" />
         民主评议党员
       </view>
 			<view class="item"
-            @tap="ways('zuzhishenghouinfo6')">
-        <image src="../../static/zuzhishenghuo7.png"
+            @tap="ways('zuzhishenghouinfo7')">
+        <image src="../../static/task33.png"
                mode="" />
         支部党员大会
       </view>

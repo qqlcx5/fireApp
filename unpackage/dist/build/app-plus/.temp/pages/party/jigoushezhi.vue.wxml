@@ -1,0 +1,14 @@
+<template name="88b27d7c">
+  <view class="_view data-v-2199604f page">
+    <view class="_view data-v-2199604f header">
+      <view class="_view data-v-2199604f header-left" bindtap="handleProxy" data-eventid="{{'0hW-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-2199604f icon"></text>
+      </view>
+      <view class="_view data-v-2199604f header-content"> 机构设置 </view>
+      <view class="_view data-v-2199604f header-right"></view>
+    </view>
+    <view style="margin-top: 120rpx;" class="_view data-v-2199604f">
+      <web-view src="http://223.247.144.84:81/bh/party/index.html" class="_web-view data-v-2199604f"></web-view>
+    </view>
+  </view>
+</template>

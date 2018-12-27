@@ -1,0 +1,1 @@
+<import src="/pages/train/tuisong.vue.wxml" /><template is="245b3e48" data="{{ ...$root['0'], $root }}"/>

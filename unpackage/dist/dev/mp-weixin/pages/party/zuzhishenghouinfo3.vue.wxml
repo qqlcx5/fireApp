@@ -1,0 +1,21 @@
+<template name="9116c772">
+  <view class="_view data-v-3e90649a page">
+    <view class="_view data-v-3e90649a header">
+      <view class="_view data-v-3e90649a header-left" bindtap="handleProxy" data-eventid="{{'L3M-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-3e90649a icon"></text>
+      </view>
+      <view class="_view data-v-3e90649a header-content"> 组织生活 </view>
+      <view class="_view data-v-3e90649a header-right"></view>
+    </view>
+    <view class="_view data-v-3e90649a info">
+      <view class="_view data-v-3e90649a info-title"> 党课</view>
+    </view>
+    <view class="_view data-v-3e90649a article">
+      <image src="../../static/zuzhishenghouinfo3.png" class="_image data-v-3e90649a message-img"></image>
+      <text class="_text data-v-3e90649a text" decode="true">  党课制度（每月一次）党课教育是党组织定期对党员进行特殊教育的基本制度。党课教育每月进行一次。</text>
+      <text class="_text data-v-3e90649a text" decode="true">  党课教育的基本内容是：党的基本理论教育（组织党员学习马列主义、毛泽东思想、邓小平理论和“三个代表”重要思想）；党的现行方针政策教育（组织党员学习党、国家和军队的重大方针和政策）；党的基本知识教育（对党员进行党的性质、宗旨、任务、纲领，组织原则、生活原则，党员的权利和义务等教育）；党员思想修养教育（组织党员学习思想道德规范，加强党性修养）；党的优良传统教育（帮助党员了解党的奋斗历程、优良传统和优良作风，增强光荣感、使命感）。</text>
+      <text class="_text data-v-3e90649a text"
+        decode="true">  上大课是党课教育的最基本的组织形式。同时，应从实际和效果出发，采取灵活多样的形式落实党课教育内容。例如，举办短期培训、开办讲座，组织读书班、专题研讨会、先进事迹报告会等，调动党员的积极性，提高党课教育的质量效果。</text>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,23 @@
+<template name="12d794c6">
+  <view class="_view data-v-5c86d4aa page">
+    <view class="_view data-v-5c86d4aa header">
+      <view class="_view data-v-5c86d4aa header-left" bindtap="handleProxy" data-eventid="{{'8aR-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-5c86d4aa icon"></text>
+      </view>
+      <view class="_view data-v-5c86d4aa header-content"> {{title}} </view>
+      <view class="_view data-v-5c86d4aa header-right"></view>
+    </view>
+    <view class="_view data-v-5c86d4aa list mgt20">
+      <view class="_view data-v-5c86d4aa item" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'JHB-1-'+index}}" data-comkey="{{$k}}" wx:for="{{articlelist}}" wx:for-index="index" wx:for-item="value">
+        <view class="_view data-v-5c86d4aa item-left">
+          <image src="{{baseurl+value.imageurl}}" class="_image data-v-5c86d4aa"></image>
+        </view>
+        <view class="_view data-v-5c86d4aa mgl30 item-right">
+          <text class="_text data-v-5c86d4aa item-name">{{value.articlename}}</text>
+          <text class="_text data-v-5c86d4aa item-desc">{{value.articlesub}}</text>
+        </view>
+        <text class="_text data-v-5c86d4aa item-time">{{value.createtime}}</text>
+      </view>
+    </view>
+  </view>
+</template>

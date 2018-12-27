@@ -1,0 +1,41 @@
+<template name="3a437004">
+  <view class="_view data-v-bf93e1de page">
+    <view class="_view data-v-bf93e1de header">
+      <view class="_view data-v-bf93e1de header-left" bindtap="handleProxy" data-eventid="{{'Sei-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-bf93e1de icon"></text>
+      </view>
+      <view class="_view data-v-bf93e1de header-content"> 任务完成情况 </view>
+      <view class="_view data-v-bf93e1de header-right"></view>
+    </view>
+    <view class="_view data-v-bf93e1de tab-title">
+      <view class="_view data-v-bf93e1de tab  {{[!showVideo ? 'select' : '']}}" bindtap="handleProxy" data-eventid="{{'ejO-1'}}" data-comkey="{{$k}}">照片</view>
+      <view class="_view data-v-bf93e1de tab  {{[showVideo ? 'select' : '']}}" bindtap="handleProxy" data-eventid="{{'Y4P-2'}}" data-comkey="{{$k}}">视频</view>
+    </view>
+    <view wx:if="{{!showVideo}}" class="_view data-v-bf93e1de">
+      <view class="_view data-v-bf93e1de imgList">
+        <view class="_view data-v-bf93e1de img-item" wx:key="index" key="{{index}}" wx:for="{{imgurl}}" wx:for-index="index" wx:for-item="value">
+          <image class="_image data-v-bf93e1de imgsize" src="{{baseurl+value}}" mode bindtap="handleProxy" data-eventid="{{'iBY-3-'+index}}" data-comkey="{{$k}}"></image>
+        </view>
+      </view>
+    </view>
+    <view wx:else class="_view data-v-bf93e1de">
+      <view class="_view data-v-bf93e1de imgList">
+        <view class="_view data-v-bf93e1de img-item" bindtap="handleProxy" data-eventid="{{'orQ-4'}}" data-comkey="{{$k}}">
+          <video class="_video data-v-bf93e1de imgsize" src="{{baseurl+lifedetail.lifevideo}}" mode style="width: 400rpx;"></video>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-bf93e1de remarks">
+      <view class="_view data-v-bf93e1de remarks-title"> 备注消息 </view>
+      <view class="_view data-v-bf93e1de remarks-content">
+        <text decode="true" class="_text data-v-bf93e1de">   {{lifedetail.lifecontent}} </text>
+      </view>
+    </view>
+    <view class="_view data-v-bf93e1de graces-banner" wx:if="{{bannerShow}}">
+      <view class="_view data-v-bf93e1de">
+        <image src="{{bigimg}}" style="width:100%;border-radius: 12rpx; overflow: hidden;" mode="widthFix" class="_image data-v-bf93e1de"></image>
+      </view>
+    </view>
+    <view class="_view data-v-bf93e1de graces-mask" wx:if="{{bannerShow}}" bindtap="handleProxy" data-eventid="{{'1U9-5'}}" data-comkey="{{$k}}"></view>
+  </view>
+</template>

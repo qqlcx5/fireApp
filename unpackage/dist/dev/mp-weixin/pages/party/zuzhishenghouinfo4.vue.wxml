@@ -1,0 +1,19 @@
+<template name="90fa9870">
+  <view class="_view data-v-3e9e7c1b page">
+    <view class="_view data-v-3e9e7c1b header">
+      <view class="_view data-v-3e9e7c1b header-left" bindtap="handleProxy" data-eventid="{{'fWr-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-3e9e7c1b icon"></text>
+      </view>
+      <view class="_view data-v-3e9e7c1b header-content"> 组织生活 </view>
+      <view class="_view data-v-3e9e7c1b header-right"></view>
+    </view>
+    <view class="_view data-v-3e9e7c1b info">
+      <view class="_view data-v-3e9e7c1b info-title">党日</view>
+    </view>
+    <view class="_view data-v-3e9e7c1b article">
+      <image src="../../static/zuzhishenghouinfo4.png" class="_image data-v-3e9e7c1b message-img"></image>
+      <text class="_text data-v-3e9e7c1b text" decode="true">  党日制度（每周一次）党日是党的组织和党员进行党的活动的专门时间。</text>
+      <text class="_text data-v-3e9e7c1b text" decode="true">   根据《政治工作条例》规定,每周用半天时间进行党的组织活动。每月的四个党日时间,一般两个用于党的教育,两个用于召开党的会议,处理支部业务或进行党的其他活动。党日时间必要时可以集中使用，但集中党日时间进行教育一般限于当月，且每年集中次数不宜过多，保证党日活动经常化。</text>
+    </view>
+  </view>
+</template>

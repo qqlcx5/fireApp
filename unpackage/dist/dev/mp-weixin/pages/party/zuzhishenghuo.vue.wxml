@@ -1,0 +1,27 @@
+<template name="432cac22">
+  <view class="_view data-v-12188822 page">
+    <view class="_view data-v-12188822 header">
+      <view class="_view data-v-12188822 header-left" bindtap="handleProxy" data-eventid="{{'Hz2-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-12188822 icon"></text>
+      </view>
+      <view class="_view data-v-12188822 header-content"> 组织生活 </view>
+      <view class="_view data-v-12188822 header-right"></view>
+    </view>
+    <view class="_view data-v-12188822 list">
+      <view class="_view data-v-12188822 item" bindtap="handleProxy" data-eventid="{{'mYq-1'}}" data-comkey="{{$k}}">
+        <image src="../../static/task27.png" mode class="_image data-v-12188822"></image> 党小组会 </view>
+      <view class="_view data-v-12188822 item" bindtap="handleProxy" data-eventid="{{'QIP-2'}}" data-comkey="{{$k}}">
+        <image src="../../static/task28.png" mode class="_image data-v-12188822"></image> 支委会 </view>
+      <view class="_view data-v-12188822 item" bindtap="handleProxy" data-eventid="{{'yyk-3'}}" data-comkey="{{$k}}">
+        <image src="../../static/task29.png" mode class="_image data-v-12188822"></image> 党课 </view>
+      <view class="_view data-v-12188822 item" bindtap="handleProxy" data-eventid="{{'waH-4'}}" data-comkey="{{$k}}">
+        <image src="../../static/task30.png" mode class="_image data-v-12188822"></image> 党日 </view>
+      <view class="_view data-v-12188822 item" bindtap="handleProxy" data-eventid="{{'JLq-5'}}" data-comkey="{{$k}}">
+        <image src="../../static/task31.png" mode class="_image data-v-12188822"></image> 党员思想汇报 </view>
+      <view class="_view data-v-12188822 item" bindtap="handleProxy" data-eventid="{{'EZW-6'}}" data-comkey="{{$k}}">
+        <image src="../../static/task32.png" mode class="_image data-v-12188822"></image> 民主评议党员 </view>
+      <view class="_view data-v-12188822 item" bindtap="handleProxy" data-eventid="{{'o7s-7'}}" data-comkey="{{$k}}">
+        <image src="../../static/task33.png" mode class="_image data-v-12188822"></image> 支部党员大会 </view>
+    </view>
+  </view>
+</template>

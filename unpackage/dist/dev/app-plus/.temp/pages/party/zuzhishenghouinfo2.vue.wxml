@@ -1,0 +1,18 @@
+<template name="9132f674">
+  <view class="_view data-v-3e824d19 page">
+    <view class="_view data-v-3e824d19 header">
+      <view class="_view data-v-3e824d19 header-left" bindtap="handleProxy" data-eventid="{{'fYe-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-3e824d19 icon"></text>
+      </view>
+      <view class="_view data-v-3e824d19 header-content"> 组织生活 </view>
+      <view class="_view data-v-3e824d19 header-right"></view>
+    </view>
+    <view class="_view data-v-3e824d19 info">
+      <view class="_view data-v-3e824d19 info-title">支委会</view>
+    </view>
+    <view class="_view data-v-3e824d19 article">
+      <image src="../../static/zuzhishenghouinfo2.png" class="_image data-v-3e824d19 message-img"></image>
+      <text class="_text data-v-3e824d19 text" decode="true">  支部委员会在支部党员大会闭会期间，负责处理党支部日常工作，集体讨论、决定和处理本单位的重大问题。支委会根据工作需要召开，一般每半月召开一次为宜。遇有紧急问题，可随时召开。支委会一般由书记、副书记主持。支部委员会讨论研究的问题，按照《政治工作条例》第四十二条和第二十五条的规定执行。召开支部委员会的基本程序、方法和要求。 </text>
+    </view>
+  </view>
+</template>

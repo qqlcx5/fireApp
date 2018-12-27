@@ -1,0 +1,53 @@
+<import src="/components/uni-load-more.vue.wxml" />
+<template name="149f2c6c">
+  <view class="_view data-v-10be9757 page">
+    <view class="_view data-v-10be9757 header" style="position: fixed;z-index: 10000;">
+      <view class="_view data-v-10be9757 header-left" bindtap="handleProxy" data-eventid="{{'luc-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-10be9757 icon"></text>
+      </view>
+      <view class="_view data-v-10be9757 header-content"> 任务列表 </view>
+      <view class="_view data-v-10be9757 header-right"></view>
+    </view>
+    <view class="_view data-v-10be9757 tab-title" style="margin-top:120rpx;">
+      <view class="_view data-v-10be9757 tab-title">
+        <view class="_view data-v-10be9757 tab  {{[!showTask ? 'select' : '']}}" bindtap="handleProxy" data-eventid="{{'tjW-1'}}" data-comkey="{{$k}}">开始任务</view>
+        <view class="_view data-v-10be9757 tab  {{[showTask ? 'select' : '']}}" bindtap="handleProxy" data-eventid="{{'ox8-2'}}" data-comkey="{{$k}}">历史任务</view>
+      </view>
+    </view>
+    <view class="_view data-v-10be9757 list" wx:if="{{ totallist !='' }}">
+      <view class="_view data-v-10be9757 picker-data">
+        <picker class="_picker data-v-10be9757 picker-item" mode="date" start="2018-01-01" end="2019-01-01" bindchange="handleProxy" data-eventid="{{'S0v-3'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-10be9757 picker-data-text">开始时间
+            <view class="_view data-v-10be9757 picker-data-num">{{startDate}}</view>
+          </view>
+        </picker>
+        <picker class="_picker data-v-10be9757 picker-item" mode="date" start="2018-01-01" end="2019-01-01" bindchange="handleProxy" data-eventid="{{'ZZT-4'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-10be9757 picker-data-text">结束时间
+            <view class="_view data-v-10be9757 picker-data-num">{{endDate}}</view>
+          </view>
+        </picker>
+        <view class="_view data-v-10be9757 mbtn findbtn">查询</view>
+      </view>
+      <view class="_view data-v-10be9757 item" wx:key="key" key="{{key}}" wx:for="{{totallist}}" wx:for-index="key" wx:for-item="value">
+        <view class="_view data-v-10be9757 item-left" bindtap="handleProxy" data-eventid="{{'IlN-5-'+key}}" data-comkey="{{$k}}">
+          <image class="_image data-v-10be9757 item-left-image" src="{{'../../static/task'+value.lifecat+'.png'}}" mode></image>
+        </view>
+        <view class="_view data-v-10be9757 item-middle" bindtap="handleProxy" data-eventid="{{'pyJ-6-'+key}}" data-comkey="{{$k}}">
+          <text class="_text data-v-10be9757 item-name">{{value.pushcontent}}</text>
+          <text class="_text data-v-10be9757 item-desc">开始时间:{{value.starttime}}</text>
+          <text class="_text data-v-10be9757 item-desc">结束时间:{{value.endtime}}</text>
+        </view>
+        <view class="_view data-v-10be9757 item-right">
+          <image class="_image data-v-10be9757 item-right-image" src="{{'../../static/renwu'+value.status+'.png'}}" mode></image>
+          <view class="_view data-v-10be9757 item-btn-warn" bindtap="handleProxy" data-eventid="{{'fBR-7-'+key}}" data-comkey="{{$k}}">详情</view>
+        </view>
+      </view>
+      <template data="{{...$root['0'], ...$root[$kk+'MlI-0'],$root}}" is="01941172"></template>
+    </view>
+    <view class="_view data-v-10be9757 msg-box" wx:else>
+      <image class="_image data-v-10be9757 msg-img" src="../../static/notrain.png" mode></image>
+      <text class="_text data-v-10be9757 msg-title">暂无内容</text>
+      <text class="_text data-v-10be9757 msg-desc"></text>
+    </view>
+  </view>
+</template>

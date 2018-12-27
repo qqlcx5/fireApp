@@ -1,0 +1,31 @@
+<template name="019fbc38">
+  <view class="_view data-v-6b17f645 page">
+    <view class="_view data-v-6b17f645 header">
+      <view class="_view data-v-6b17f645 header-left" bindtap="handleProxy" data-eventid="{{'PDQ-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-6b17f645 icon"></text>
+      </view>
+      <view class="_view data-v-6b17f645 header-content"> 行政管理 </view>
+      <view class="_view data-v-6b17f645 header-right">
+        <text class="_text data-v-6b17f645 icon"></text>
+      </view>
+    </view>
+    <view class="_view data-v-6b17f645 list mgt20">
+      <view class="_view data-v-6b17f645 item" bindtap="handleProxy" data-eventid="{{'VbN-1'}}" data-comkey="{{$k}}">
+        <image src="../../static/xingzhengguanli1.png" class="_image data-v-6b17f645"></image>
+        <view class="_view data-v-6b17f645 item-name mgl20">会议列表</view>
+      </view>
+      <view class="_view data-v-6b17f645 item" bindtap="handleProxy" data-eventid="{{'DXp-2'}}" data-comkey="{{$k}}">
+        <image src="../../static/xingzhengguanli2.png" class="_image data-v-6b17f645"></image>
+        <view class="_view data-v-6b17f645 item-name mgl20">制订会议</view>
+      </view>
+      <view class="_view data-v-6b17f645 item" bindtap="handleProxy" data-eventid="{{'A1E-3'}}" data-comkey="{{$k}}">
+        <image src="../../static/xingzhengguanli3.png" class="_image data-v-6b17f645"></image>
+        <view class="_view data-v-6b17f645 item-name mgl20">会议删改查</view>
+      </view>
+      <view class="_view data-v-6b17f645 item" bindtap="handleProxy" data-eventid="{{'rC7-4'}}" data-comkey="{{$k}}">
+        <image src="../../static/xingzhengguanli4.png" class="_image data-v-6b17f645"></image>
+        <view class="_view data-v-6b17f645 item-name mgl20">下发通知</view>
+      </view>
+    </view>
+  </view>
+</template>

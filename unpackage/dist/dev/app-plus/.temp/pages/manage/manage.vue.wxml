@@ -1,0 +1,34 @@
+<template name="03fb2f3b">
+  <view class="_view data-v-4d10028e page">
+    <view class="_view data-v-4d10028e header-box">
+      <view class="_view data-v-4d10028e diff-header">
+        <view class="_view data-v-4d10028e header-left"></view>
+        <view class="_view data-v-4d10028e header-content"> 我的管理 </view>
+        <view class="_view data-v-4d10028e header-right"></view>
+      </view>
+      <view class="_view data-v-4d10028e banner" wx:if="{{ userinfo===null }}">
+        <image src="{{defimg}}" class="_image data-v-4d10028e"></image>
+        <view class="_view data-v-4d10028e user-info">
+          <view class="_view data-v-4d10028e loginbtn" bindtap="handleProxy" data-eventid="{{'n8n-0'}}" data-comkey="{{$k}}">立即登录</view>
+        </view>
+      </view>
+      <view class="_view data-v-4d10028e banner" wx:else>
+        <image src="{{userinfo.headimg}}" class="_image data-v-4d10028e"></image>
+        <view class="_view data-v-4d10028e user-info">
+          <text class="_text data-v-4d10028e">{{userinfo.personname}}</text>
+          <text class="_text data-v-4d10028e banner-desc">职务：{{userinfo.framename}}-{{userinfo.dutiesname}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-4d10028e list">
+      <view class="_view data-v-4d10028e item" bindtap="handleProxy" data-eventid="{{'e3l-1'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-4d10028e gIcon mgl30 mgr20"></text>
+        <view class="_view data-v-4d10028e item-name">用户信息</view>
+        <text class="_text data-v-4d10028e gIcon mgr30"></text>
+      </view>
+    </view>
+    <view style="margin-top:500rpx; margin-left: 100rpx; width: 500rpx; height:100rpx ;" bindtap="handleProxy" data-eventid="{{'ofj-2'}}" data-comkey="{{$k}}" class="_view data-v-4d10028e">
+      <image src="../../static/loginout.png" style="width: 560rpx; height: 90rpx;" class="_image data-v-4d10028e"></image>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,66 @@
+<template name="10813968">
+  <view class="_view data-v-2617414e page">
+    <view class="_view data-v-2617414e header">
+      <view class="_view data-v-2617414e header-left" bindtap="handleProxy" data-eventid="{{'RJQ-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-2617414e icon"></text>
+      </view>
+      <view class="_view data-v-2617414e header-content"> 添加任务 </view>
+      <view class="_view data-v-2617414e header-right"></view>
+    </view>
+    <view class="_view data-v-2617414e tab-title">
+      <view class="_view data-v-2617414e tab-title">
+        <view class="_view data-v-2617414e tab  {{[!showVideo ? 'select' : '']}}" bindtap="handleProxy" data-eventid="{{'alg-1'}}" data-comkey="{{$k}}">照片</view>
+        <view class="_view data-v-2617414e tab  {{[showVideo ? 'select' : '']}}" bindtap="handleProxy" data-eventid="{{'RFX-2'}}" data-comkey="{{$k}}">视频</view>
+      </view>
+    </view>
+    <view wx:if="{{!showVideo}}" class="_view data-v-2617414e">
+      <view class="_view data-v-2617414e imgList">
+        <block wx:key="index" key="{{index}}" wx:for="{{imageList}}" wx:for-index="index" wx:for-item="image">
+          <view class="_view data-v-2617414e imgItem">
+            <image class="_image data-v-2617414e imgsize" src="{{image}}" data-src="{{image}}" bindtap="handleProxy" data-eventid="{{'wfH-3-'+index}}" data-comkey="{{$k}}"></image>
+            <block>
+              <image class="_image data-v-2617414e close" src="../../static/close.png" bindtap="handleProxy" data-eventid="{{'VNo-4-'+index}}" data-comkey="{{$k}}"></image>
+            </block>
+            <view class="_view data-v-2617414e spinner" hidden="{{!(imageshow)}}">
+              <image src="../../static/timg.gif" style="width: 100rpx; height: 100rpx;" class="_image data-v-2617414e"></image>
+            </view>
+          </view>
+        </block>
+        <view class="_view data-v-2617414e imgItem imgItemBorder" bindtap="handleProxy" data-eventid="{{'bij-5'}}" data-comkey="{{$k}}">
+          <text class="_text data-v-2617414e gIcon addIcon">  </text>
+        </view>
+      </view>
+    </view>
+    <view wx:else class="_view data-v-2617414e">
+      <view class="_view data-v-2617414e imgList">
+        <view class="_view data-v-2617414e imgItem imgItemBorder" bindtap="handleProxy" wx:if="{{!isshow}}" data-eventid="{{'AyE-6'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-2617414e gIcon addIcon">  </view>
+        </view>
+        <view class="_view data-v-2617414e imgItem" wx:else>
+          <video src="{{src}}" style="height:200rpx;" class="_video data-v-2617414e video"></video>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-2617414e remarks">
+      <view class="_view data-v-2617414e remarks-title">
+        <text class="_text data-v-2617414e">备注消息</text>
+        <text class="_text data-v-2617414e gIcon" bindtap="handleProxy" data-eventid="{{'Vss-7'}}" data-comkey="{{$k}}"></text>
+      </view>
+      <view class="_view data-v-2617414e isFix" wx:if="{{isFix}}">
+        <view class="_view data-v-2617414e fixmsg">
+          <view class="_view data-v-2617414e fix-title" bindtap="handleProxy" data-eventid="{{'d5h-8'}}" data-comkey="{{$k}}">添加常用语</view>
+          <view class="_view data-v-2617414e">
+            <block>
+              <view class="_view data-v-2617414e fix-item" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'giG-9-'+index}}" data-comkey="{{$k}}" wx:for="{{comlist}}" wx:for-index="index" wx:for-item="value">{{value.content}}</view>
+            </block>
+          </view>
+          <view class="_view data-v-2617414e fix-end" bindtap="handleProxy" data-eventid="{{'Syk-10'}}" data-comkey="{{$k}}">取消</view>
+        </view>
+      </view>
+      <view class="_view data-v-2617414e remarks-content">
+        <textarea class="_textarea data-v-2617414e textarea" placeholder="必填（1000字符以内)" value="{{content}}" bindinput="handleProxy" data-eventid="{{'JEL-11'}}" data-comkey="{{$k}}" />
+      </view>
+    </view>
+    <button class="_button data-v-2617414e mgt40 btn" bindtap="handleProxy" data-eventid="{{'1TP-12'}}" data-comkey="{{$k}}">保存</button>
+  </view>
+</template>

@@ -8,19 +8,20 @@
       <view class="header-content">
         组织生活
       </view>
-      <view class="header-right">
-        <text class="icon">&#xe622;</text>
+      <view class="header-right" >
+      	<!-- <image src="../../static/list.png" style="width:45px; height:45px; margin-top: 10px;"></image> -->
       </view>
     </view>
     <view class="info">
-      <view class="info-title"> 党课制度</view>
+      <view class="info-title"> 党课</view>
 
     </view>
     <view class="article">
+			<image src='../../static/zuzhishenghouinfo3.png'
+						class="message-img" />
       <text class="text"
             decode=true>&emsp;&emsp;党课制度（每月一次）党课教育是党组织定期对党员进行特殊教育的基本制度。党课教育每月进行一次。</text>
-      <image src='../../static/zuzhishenghouinfo3.png'
-             class="message-img" />
+      
       <text class="text"
             decode=true>&emsp;&emsp;党课教育的基本内容是：党的基本理论教育（组织党员学习马列主义、毛泽东思想、邓小平理论和“三个代表”重要思想）；党的现行方针政策教育（组织党员学习党、国家和军队的重大方针和政策）；党的基本知识教育（对党员进行党的性质、宗旨、任务、纲领，组织原则、生活原则，党员的权利和义务等教育）；党员思想修养教育（组织党员学习思想道德规范，加强党性修养）；党的优良传统教育（帮助党员了解党的奋斗历程、优良传统和优良作风，增强光荣感、使命感）。</text>
       <text class="text"
@@ -42,6 +43,11 @@ export default {
         delta: 1
       })
     },
+		category: function(cat) {
+			uni.navigateTo({
+				url: "../../pages/train/msglist?lifecat=" + JSON.stringify(cat),
+			})
+		},
   }
 }
 </script>

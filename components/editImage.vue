@@ -1,102 +1,30 @@
 <template>
-	<view>
-		<!-- <form>
-						<view class="page-section">
-							<view class="uni-list list-pd">
-								<view class="uni-list-cell cell-pd">
-									<view class="uni-uploader">
-										<view class="uni-uploader-head">
-											<view class="uni-uploader-title" @tap="govo">点击可预览选好的图片</view>
-											<view class="uni-uploader-info">{{imageList.length}}/3</view>
-										</view>
-										<view class="uni-uploader-body">
-											<view class="uni-uploader__files">
-												<block v-for="(image,index) in imageList" :key="index">
-													<view class="uni-uploader__file">
-														<image class="uni-uploader__img" :src="image" :data-src="image" @tap="previewImage"></image>
-														<view class="close" @tap="delImage(index)">
-															<image src="../static/close.png"></image>
-														</view>
-													</view>
-												</block>
-											</view>
-											<view class="uni-uploader__input-box">
-												<view class="uni-uploader__input" @tap="chooseImage"></view>
-											</view>
-										</view>
-									</view>
-								</view>
-							</view>
-		
-						</view>
-					</form> -->
-		<form>
-			<view class="imgList">
-				<block v-for="(image,index) in imageList" :key="index">
-					<view class="imgItem">
-						<image class="imgsize" :src="image" :data-src="image" @tap="previewImage"></image>
-						<block>
-							<image class="close" src="../../static/close.png"></image>
-						</block>
-					</view>
-				</block>
-				<!-- 				<view class="imgItem">
-					<image class="imgsize" src="../../static/dangjian.jpg" mode=""></image>
-				</view> -->
-				<view class="imgItem imgItemBorder">
-					<text class="gIcon addIcon" @tap="chooseImage">
-						&#xe62a;
-					</text>
-				</view>
-			</view>
-			<view class="remarks">
-				<view class="remarks-title">
-					<text>备注消息</text>
-					<text class="gIcon" @tap="isFix = true">&#xe604;</text>
-				</view>
-				<view class="isFix" v-if="isFix">
-					<!-- 事件冒泡 -->
-					<view class="fixmsg">
-						<view class="fix-title" @tap="ways('changyongyu')">添加常用语</view>
-						<view>	<!-- v-if="false" -->
-							<block>
-								<view class="fix-item">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</view>
-							</block>
-						</view>
-						<view class="fix-end" @tap="isFix=false">取消</view>
-					</view>
-				</view>
-				<view class="remarks-content">
-					<textarea class="textarea" placeholder="必填（1000字符以内）"></textarea>
-				</view>
-			</view>
-			<view class="mgt40 btn">
-				保存
-			</view>
-		</form>
+	<view class="imgItem imgItemBorder" @tap="chooseImage">
+		<text class="gIcon addIcon" >
+			&#xe62a;
+		</text>
 	</view>
 </template>
 <script>
-	// import common from '../common/common.js';
-	// 	import {
-	// 		mapState
-	// 	} from 'vuex';
+	import common from '../common/common.js';
+	import {
+		mapState
+	} from 'vuex';
 
 	export default {
 		data() {
 			return {
 				imageList: [],
-				//imageListStr:""
-				isFix: false
+				imgurl: "",
+
 			}
 		},
 		onUnload() {
-			this.imageList = [],
-				this.imageListStr = ""
+			this.imageList = []
 		},
-		// 		computed: {
-		// 			...mapState(['user']),
-		// 		},
+		computed: {
+			...mapState(['user']),
+		},
 		methods: {
 			chooseImage: async function() {
 					let imgcount = 3;
@@ -109,17 +37,14 @@
 					}
 					uni.chooseImage({
 						count: imgcount - this.imageList.length,
+						sourceType:["camera"],
 						success: (res) => {
+							console.log(JSON.stringify(res));
+							console.log(res.tempFiles.size);
 							this.imageList = this.imageList.concat(res.tempFilePaths);
-							//	console.log(JSON.stringify(res))
-							res.tempFilePaths.forEach(function(value, key) {
-								that.uploadImage(value);
-							})
+						    this.$emit("childimages",this.imageList);	
 						}
 					})
-				},
-				delImage: function(e) {
-					this.imageList.splice(e, 1);
 				},
 				isFullImg: function() {
 					return new Promise((res) => {
@@ -139,28 +64,7 @@
 						})
 					})
 				},
-				uploadImage: function(e) {
-
-					let that = this;
-					const uploadTask = uni.uploadFile({
-						url: common.hosturl + "Upload/uploadfile.html",
-						filePath: e,
-						name: "file",
-						formData: {
-							token: this.user.user.token
-						},
-						success: (uploadFileRes) => {
-							console.log(JSON.stringify(uploadFileRes));
-						},
-					});
-
-					/* uploadTask.onProgressUpdate((res) => {
-						console.log('上传进度' + res.progress);
-						console.log('已经上传的数据长度' + res.totalBytesSent);
-						console.log('预期需要上传的数据总长度' + res.totalBytesExpectedToSend);
-
-					}); */
-				},
+				
 				previewImage: function(e) {
 					var current = e.target.dataset.src
 					uni.previewImage({
@@ -172,5 +76,30 @@
 	}
 </script>
 <style>
-	
+/* 两个组件公用一套样式 */
+	.imgList {
+
+		display: flex;
+		min-height: 260px;
+		min-width: 750px;
+		flex-wrap: wrap;
+		padding: 37.5px 0 0 37.5px;
+		box-sizing: border-box;
+		background-color: #FFFFFF;
+	}
+
+	.imgItem {
+		margin: 0 37.5px 37.5px 0;
+		/* padding: 0 37.5px 37.5px 0; */
+		position: relative;
+		/* width: 237.5px;
+		height: 237.5px; */
+		width: 200px;
+		height: 200px;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
 </style>

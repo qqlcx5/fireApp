@@ -1,21 +1,31 @@
 import Vue from 'vue'
 import App from './App'
 
+import store from './store'
+
 Vue.config.productionTip = false
 
+Vue.prototype.$store = store
 
 App.mpType = 'app'
-Vue.prototype.ways = function(url) {
-  uni.navigateTo({
-    url: url
-  })
-}
-Vue.prototype.backs = function() {
-  uni.navigateBack({
-    delta: 1
-  })
-}
+
 const app = new Vue({
-  ...App
+	store,
+	...App
 })
 app.$mount()
+
+
+
+Vue.prototype.ways = function(url) {
+	uni.navigateTo({
+		url: url
+	})
+}
+Vue.prototype.backs = function() {
+	uni.navigateBack({
+		delta: 1
+	})
+}
+
+

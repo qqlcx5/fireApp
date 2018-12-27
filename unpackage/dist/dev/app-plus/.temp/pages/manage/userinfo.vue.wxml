@@ -1,0 +1,43 @@
+<template name="1728b962">
+  <view class="_view data-v-4b98ede2 page">
+    <view class="_view data-v-4b98ede2 header">
+      <view class="_view data-v-4b98ede2 header-left" bindtap="handleProxy" data-eventid="{{'VaZ-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-4b98ede2 icon"></text>
+      </view>
+      <view class="_view data-v-4b98ede2 header-content"> 用户信息 </view>
+      <view class="_view data-v-4b98ede2 header-right"></view>
+    </view>
+    <view class="_view data-v-4b98ede2 list">
+      <view class="_view data-v-4b98ede2 item-user">
+        <view class="_view data-v-4b98ede2 item-user-border">
+          <text class="_text data-v-4b98ede2 item-user-name">头像</text>
+          <image src="{{userinfo.headimg}}" class="_image data-v-4b98ede2 item-user-img"></image>
+        </view>
+      </view>
+      <view class="_view data-v-4b98ede2 item">
+        <view class="_view data-v-4b98ede2 border">
+          <text class="_text data-v-4b98ede2 item-name">姓名</text>
+          <text class="_text data-v-4b98ede2 picker-name">{{userinfo.personname}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-4b98ede2 item">
+        <view class="_view data-v-4b98ede2 border">
+          <text class="_text data-v-4b98ede2 picker-name">性别</text>
+          <text class="_text data-v-4b98ede2 picker-name">{{userinfo.sex}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-4b98ede2 item">
+        <view class="_view data-v-4b98ede2 border">
+          <text class="_text data-v-4b98ede2 item-name">职务</text>
+          <text class="_text data-v-4b98ede2 picker-name">{{userinfo.framename}}-{{userinfo.dutiesname}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-4b98ede2 item">
+        <view class="_view data-v-4b98ede2 border">
+          <text class="_text data-v-4b98ede2 item-name">手机</text>
+          <text class="_text data-v-4b98ede2 picker-name">{{userinfo.mobile}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

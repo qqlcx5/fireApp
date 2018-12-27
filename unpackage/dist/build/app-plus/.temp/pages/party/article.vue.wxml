@@ -1,0 +1,27 @@
+<template name="8a846102">
+  <view class="_view data-v-546805e8 page">
+    <view class="_view data-v-546805e8 header" style="position: fixed;">
+      <view class="_view data-v-546805e8 header-left" bindtap="handleProxy" data-eventid="{{'wre-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-546805e8 icon"></text>
+      </view>
+      <view class="_view data-v-546805e8 header-content"> {{categoryname}} </view>
+      <view class="_view data-v-546805e8 header-right"></view>
+    </view>
+    <view class="_view data-v-546805e8 message-info" style="margin-top:120rpx;">
+      <view class="_view data-v-546805e8 title">
+        <text class="_text data-v-546805e8 title-name">{{article.articlename}}</text>
+        <text class="_text data-v-546805e8 title-desc">{{categoryname}}</text>
+      </view>
+      <view class="_view data-v-546805e8 message-user">
+        <image class="_image data-v-546805e8 user-left" src="{{baseurl+adduser.head}}"></image>
+        <view class="_view data-v-546805e8 user-right mgl20">
+          <text class="_text data-v-546805e8 user-name">{{adduser.personname}}</text>
+          <text class="_text data-v-546805e8 user-time">{{article.createtime}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-546805e8 article">
+        <rich-text class="_rich-text data-v-546805e8 detailimg" nodes="{{articlecontent}}"></rich-text>
+      </view>
+    </view>
+  </view>
+</template>

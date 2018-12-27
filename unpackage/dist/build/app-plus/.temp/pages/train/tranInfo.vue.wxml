@@ -1,0 +1,42 @@
+<template name="91e30044">
+  <view class="_view data-v-0473f81e page">
+    <view class="_view data-v-0473f81e header" style="position: fixed;z-index:10000 ;">
+      <view class="_view data-v-0473f81e header-left" bindtap="handleProxy" data-eventid="{{'Zek-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-0473f81e icon"></text>
+      </view>
+      <view class="_view data-v-0473f81e header-content"> {{title}} </view>
+      <view class="_view data-v-0473f81e header-right">
+        <text class="_text data-v-0473f81e"></text>
+      </view>
+    </view>
+    <view class="_view data-v-0473f81e list" wx:if="{{ lifelist !='' }}" style="margin-top:120rpx;">
+      <view wx:key="index" key="{{index}}" wx:for="{{lifelist}}" wx:for-index="index" wx:for-item="value" class="_view data-v-0473f81e">
+        <view class="_view data-v-0473f81e item-time-box">
+          <view class="_view data-v-0473f81e item-time">{{index}} </view>
+        </view>
+        <view class="_view data-v-0473f81e item" wx:key="index1" key="{{index1}}" bindtap="handleProxy" data-eventid="{{'1zs-1-'+index+'-'+index1}}" data-comkey="{{$k}}" wx:for="{{value}}" wx:for-index="index1" wx:for-item="value1">
+          <view class="_view data-v-0473f81e item-title">任务完成情况确认</view>
+          <view class="_view data-v-0473f81e item-info-box">
+            <view class="_view data-v-0473f81e item-info">
+              <view class="_view data-v-0473f81e item-info-title">所属</view>
+              <view class="_view data-v-0473f81e item-info-desc">{{value1.framename}}</view>
+            </view>
+            <view class="_view data-v-0473f81e item-info">
+              <view class="_view data-v-0473f81e item-info-title">发布人</view>
+              <view class="_view data-v-0473f81e item-info-desc">{{value1.personname}}</view>
+            </view>
+            <view class="_view data-v-0473f81e item-info">
+              <view class="_view data-v-0473f81e item-info-title">完成时间</view>
+              <view class="_view data-v-0473f81e item-info-desc">{{value1.createtime}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-0473f81e msg-box" wx:else>
+      <image class="_image data-v-0473f81e msg-img" src="../../static/notrain.png" mode></image>
+      <text class="_text data-v-0473f81e msg-title">暂无内容</text>
+      <text class="_text data-v-0473f81e msg-desc"></text>
+    </view>
+  </view>
+</template>

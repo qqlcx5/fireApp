@@ -1,40 +1,51 @@
 {
 	"pages": [
-
+		{
+			"path": "pages/party/party"
+		},
 		{
 			"path": "pages/daily/daily"
-		}, {
+		},
+		{
+			"path": "pages/edu/edu"
+		},
+		{
 			"path": "pages/train/train"
+		}, {
+			"path": "pages/train/add"
 		},
 		{
 			"path": "pages/train/tranInfo"
 		},
 		{
-			"path": "pages/train/trainchakan"
+			"path": "pages/train/trainmessage"
+		},
+		{
+			"path": "pages/train/traindetail"
 		},
 		{
 			"path": "pages/train/tuisong"
 		},
-		{
-			"path": "pages/train/edit"
-		},
+		
 		{
 			"path": "pages/train/changyongyu"
 		},
+		
 		{
-			"path": "pages/party/party"
+			"path": "pages/party/jigoushezhi",
+			"style": {
+				"navigationBarTitleText": "web-view"
+				
+			}
 		},
 		{
-			"path": "pages/party/jigoushezhi"
-		},
-		{
-			"path": "pages/party/xuexijingyan"
+			"path": "pages/party/articlelist"
 		},
 		{
 			"path": "pages/party/zuzhishenghuo"
 		},
 		{
-			"path": "pages/party/msgDetail"
+			"path": "pages/party/article"
 		},
 		{
 			"path": "pages/party/zuzhishenghouinfo1"
@@ -55,6 +66,9 @@
 			"path": "pages/party/zuzhishenghouinfo6"
 		},
 		{
+			"path": "pages/party/zuzhishenghouinfo7"
+		},
+		{
 			"path": "pages/manage/manage"
 		},
 		{
@@ -64,7 +78,7 @@
 			"path": "pages/manage/xingzhengguanli"
 		},
 		{
-			"path": "pages/manage/gerenziliao"
+			"path": "pages/manage/userinfo"
 		},
 		{
 			"path": "pages/manage/login"
@@ -72,15 +86,17 @@
 		{
 			"path": "pages/manage/mimaguanli"
 		},
-
 		{
-			"path": "pages/edu/edu"
+			"path": "pages/train/msglist"
 		}
+
+
 
 	],
 	"globalStyle": {
 		// 清除默认顶部导航栏
 		"navigationStyle": "custom"
+		
 	},
 	"tabBar": {
 		"color": "#999999",

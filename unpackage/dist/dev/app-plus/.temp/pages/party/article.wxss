@@ -1,0 +1,129 @@
+
+.page {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 750rpx;
+  min-height: 100vh;
+}
+.message-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  width: 750rpx;
+  background-color: #fff;
+}
+.title {
+  height: 44rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 750rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  color: #323038;
+  margin: 40rpx 0;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+.header-content {
+  height: 50rpx;
+  overflow: hidden;
+}
+.title-name {
+  font-weight: bold;
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  height: 50rpx;
+}
+.title-desc {
+  font-size: 24rpx;
+  color: #67ba61;
+}
+.message-user {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  height: 100rpx;
+  width: 750rpx;
+  margin-bottom: 30rpx;
+}
+.user-left {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user-right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.user-name {
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: #666666;
+  margin-bottom: 10rpx;
+}
+.user-time {
+  font-size: 24rpx;
+  color: #b6b4b7;
+}
+.article {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 750rpx;
+  min-height: 0;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+image {
+  width: 700rpx;
+}
+.text {
+  line-height: 34rpx;
+  font-size: 24rpx;
+  color: #666666;
+  margin-bottom: 30rpx;
+  display: block;
+  text-align: justify;
+}
+.message-img {
+  width: 670rpx;
+  height: 320rpx;
+  background-color: #d8d8d8;
+  box-shadow: 0 4rpx 8rpx 0 #e5e5e5;
+  border-radius: 12rpx;
+  margin: 0 auto 30rpx;
+}

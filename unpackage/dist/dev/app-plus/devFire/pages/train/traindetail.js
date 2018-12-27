@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([".",[1],"tab-title { width: ",[0,750],"; height: ",[0,80],"; display: -webkit-box; display: -webkit-flex; display: flex; background-color: #fff; box-shadow: 0 ",[0,2]," ",[0,4]," 0 #e9e9e9; margin-bottom: ",[0,4],"; }\n.",[1],"tab-title .",[1],"tab { width: ",[0,375],"; height: ",[0,80],"; display: -webkit-inline-box; display: -webkit-inline-flex; display: inline-flex; -webkit-box-align: center; -webkit-align-items: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center; box-sizing: border-box; color: #666666; position: relative; }\n.",[1],"tab-title .",[1],"select { color: #d0021b; font-weight: 700; }\n.",[1],"tab-title .",[1],"select::after { position: absolute; content: \x27\x27; width: ",[0,100],"; height: ",[0,6],"; background-color: #d0021b; bottom: 0; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }\n.",[1],"imgList { display: -webkit-box; display: -webkit-flex; display: flex; min-height: ",[0,260],"; min-width: ",[0,750],"; -webkit-flex-wrap: wrap; flex-wrap: wrap; padding: ",[0,37.5]," 0 0 ",[0,37.5],"; box-sizing: border-box; background-color: #FFFFFF; }\n.",[1],"imgsize { width: ",[0,200],"; height: ",[0,200],"; background-color: #d8d8d8; border-radius: ",[0,6],"; margin: 0 ",[0,37.5]," ",[0,37.5]," 0; }\n.",[1],"remarks-title { height: ",[0,107],"; line-height: ",[0,107],"; font-weight: bold; width: ",[0,750],"; font-size: ",[0,32],"; color: #666666; padding-left: ",[0,30],"; box-sizing: border-box; }\n.",[1],"remarks-content { min-height: ",[0,80],"; width: ",[0,750],"; background-color: #FFFFFF; padding: ",[0,30],"; box-sizing: border-box; }\n.",[1],"remarks-content wx-text { font-size: ",[0,28],"; line-height: ",[0,44],"; color: #666666; }\n.",[1],"graces-mask { background: rgba(0, 0, 0, 0.6); position: fixed; width: 100%; height: 100%; left: 0; top: 0; z-index: 1; }\n.",[1],"graces-banner { width: 90%; padding: ",[0,15],"; position: fixed; left: 50%; top: 50%; background: #FFF; border-radius: ",[0,12],"; z-index: 99; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); overflow: hidden; }\n",],undefined,{path:"./pages/train/traindetail.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/train/traindetail.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

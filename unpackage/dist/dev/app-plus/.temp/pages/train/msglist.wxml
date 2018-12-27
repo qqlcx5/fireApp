@@ -1,0 +1,1 @@
+<import src="/pages/train/msglist.vue.wxml" /><template is="149f2c6c" data="{{ ...$root['0'], $root }}"/>

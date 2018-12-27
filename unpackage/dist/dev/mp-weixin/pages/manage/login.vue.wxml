@@ -1,0 +1,20 @@
+<template name="d66b07fa">
+  <view class="_view data-v-5e171b60 page">
+    <view class="_view data-v-5e171b60 banner">
+      <image src="../../static/login.png" class="_image data-v-5e171b60"></image>
+    </view>
+    <view class="_view data-v-5e171b60 list">
+      <view class="_view data-v-5e171b60 item  ">
+        <text class="_text data-v-5e171b60 gIcon mgl30 mgr20"></text>
+        <input type="text" class="_input data-v-5e171b60 item-name" placeholder="请输入账号" value="{{username}}" bindinput="handleProxy" data-eventid="{{'3ka-0'}}" data-comkey="{{$k}}" />
+      </view>
+      <view class="_view data-v-5e171b60 item  ">
+        <text class="_text data-v-5e171b60 gIcon mgl30 mgr20"></text>
+        <input type="text" class="_input data-v-5e171b60 item-name" password="true" value="{{password}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'M4L-1'}}" data-comkey="{{$k}}" />
+      </view>
+    </view>
+    <view class="_view data-v-5e171b60 keep">
+      <view class="_view data-v-5e171b60 btn" bindtap="handleProxy" data-eventid="{{'QD3-2'}}" data-comkey="{{$k}}"> 登录 </view>
+    </view>
+  </view>
+</template>

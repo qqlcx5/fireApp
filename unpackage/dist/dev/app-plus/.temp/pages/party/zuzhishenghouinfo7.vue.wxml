@@ -1,0 +1,19 @@
+<template name="90a60b6a">
+  <view class="_view data-v-3ec8c29e page">
+    <view class="_view data-v-3ec8c29e header">
+      <view class="_view data-v-3ec8c29e header-left" bindtap="handleProxy" data-eventid="{{'PFb-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-3ec8c29e icon"></text>
+      </view>
+      <view class="_view data-v-3ec8c29e header-content"> 组织生活 </view>
+      <view class="_view data-v-3ec8c29e header-right"></view>
+    </view>
+    <view class="_view data-v-3ec8c29e info">
+      <view class="_view data-v-3ec8c29e info-title">支部党员大会</view>
+    </view>
+    <view class="_view data-v-3ec8c29e article">
+      <image src="../../static/zuzhishenghouinfo7.png" class="_image data-v-3ec8c29e message-img"></image>
+      <text class="_text data-v-3ec8c29e text" decode="true">   支部党员大会支部党员大会是党支部全体党员参加的会议，是党支部的最高领导机关。一般每季度不得少于一次，也可以根据需要提前或推后召开。遇有特殊情况而长时间不能召开的，必须向上级党组织报告。按期召开支部党员大会，是贯彻民主集中制原则，健全党内民主生活的具体体现，是党员履行自己的权利并监督党支部工作的重要方式。根据《党章》和《政治工作条例》规定，支部党员大会的职权是讨论贯彻执上级决议指示的计划与措施；讨论听取和决定中队（连）的重大问题；讨论和批准支委会工作报告，听取和讨论中队（连）长、指导员工作报告；选举支委会委员和出席上级党代表大会的代表；评议党员，评选优秀党员，讨论和做出不合格党员、要求退党党员的组织处理意见；做出吸收和处分党员的决定；讨论决定支部委员会提交的其他重要问题。支部党员大会一般由支部书记或副书记主持。
+        </text>
+    </view>
+  </view>
+</template>

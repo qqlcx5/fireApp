@@ -8,22 +8,21 @@
       <view class="header-content">
         组织生活
       </view>
-      <view class="header-right">
-        <text class="icon">&#xe622;</text>
-      </view>
+     <view class="header-right">
+     	<!-- <image src="../../static/list.png" style="width:45px; height:45px; margin-top: 10px;"></image> -->
+     </view>
     </view>
     <view class="info">
-      <view class="info-title">党日制度</view>
+      <view class="info-title">支委会</view>
 
     </view>
     <view class="article">
+			<image src='../../static/zuzhishenghouinfo2.png'
+						class="message-img" />
       <text class="text"
-            decode=true>&emsp;&emsp;党日制度（每周一次）党日是党的组织和党员进行党的活动的专门时间。</text>
-      <image src='../../static/zuzhishenghouinfo2.png'
-             class="message-img" />
-      <text class="text"
-            decode=true>&emsp;&emsp; 根据《政治工作条例》规定,每周用半天时间进行党的组织活动。每月的四个党日时间,一般两个用于党的教育,两个用于召开党的会议,处理支部业务或进行党的其他活动。党日时间必要时可以集中使用，但集中党日时间进行教育一般限于当月，且每年集中次数不宜过多，保证党日活动经常化。</text>
-
+            decode=true>&emsp;&emsp;支部委员会在支部党员大会闭会期间，负责处理党支部日常工作，集体讨论、决定和处理本单位的重大问题。支委会根据工作需要召开，一般每半月召开一次为宜。遇有紧急问题，可随时召开。支委会一般由书记、副书记主持。支部委员会讨论研究的问题，按照《政治工作条例》第四十二条和第二十五条的规定执行。召开支部委员会的基本程序、方法和要求。
+</text>
+     
     </view>
   </view>
 
@@ -40,6 +39,11 @@ export default {
         delta: 1
       })
     },
+		category: function(cat) {
+			uni.navigateTo({
+				url: "../../pages/train/msglist?lifecat=" + JSON.stringify(cat),
+			})
+		},
   }
 }
 </script>
